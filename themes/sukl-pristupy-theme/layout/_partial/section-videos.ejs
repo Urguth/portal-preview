@@ -1,0 +1,35 @@
+
+<section id="<%- site.data.content_cz[4].tag %>" class="section section-videos">
+    <div class="section-table">
+        <div class="section-tabs">
+            <div class="row-3 section-tab video-btn-disable-hover">
+                <div class="section-tab__table">
+                    <div class="section-tab__table-inner">
+                        <div class="section-symbol background-config">
+                            <img class="section-symbol__logo" src="./img/<%- site.data.content_cz[4].sectionLogo %>"
+                                 alt="information-image">
+                        </div>
+                        <h2 class="section__title"><%- site.data.content_cz[4].title %></h2>
+                        <div class="section__line-container">
+                            <div class="section__line-1"></div>
+                            <div class="section__line-2"></div>
+                        </div>
+                        <p class="section__description"><%- site.data.content_cz[4].description %></p>
+                    </div>
+                </div>
+            </div>
+            <% for (var i in site.data.content_cz[4].content){ %>
+            <div class="row-3 section-tab video-btn-bg video-btn-pointer"
+                 id="<%- site.data.content_cz[4].content[i].videoId %>">
+                <div class="section-tab__table">
+                    <div class="section-tab__table-inner">
+                        <div class="section-tab__title"><%- site.data.content_cz[4].content[i].title %></div>
+                        <div class="section-tab__description"><%- site.data.content_cz[4].content[i].description %></div>
+                        <div class="section-tab__type"><%- site.data.content_cz[4].content[i].type %></div>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+        </div>
+    </div>
+</section>

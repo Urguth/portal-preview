@@ -1,0 +1,31 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="cz"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="cz"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="cz"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="cz"> <!--<![endif]-->
+
+<!-- Head -->
+<%- partial('_partial/head') %>
+
+<body>
+
+<!-- Menu -->
+<%- partial('_partial/menu') %>
+
+<div class="container" style="display: none">
+    <%- body %>
+</div>
+
+<!-- Youtube Player -->
+<%- partial('_partial/youtube-player') %>
+
+<!-- External Javascript -->
+<%- partial('_partial/after-footer') %>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<div class="menu" style="display: none">
+    <nav class="menu-nav">
+        <div class="menu-nav__logo">
+            <a href="#domu">
+                <img src="./img/menu-logo.png" class="menu-nav__logo-symbol" alt="logo">
+                <span class="menu-nav__logo-span">PŘÍSTUPY</span>
+            </a>
+        </div>
+        <ul class="menu-nav__links clearfix">
+            <% for (var i in site.data.content_cz){ %>
+            <li class="menu-nav__link"><a class="menu-nav__href" href="#<%- site.data.content_cz[i].tag %>"><span
+                            class="menu-nav__span">
+                        <% if(site.data.content_cz[i].tag == "portal-externich-identit") { %>
+                        <i class="fa fa-lock menu-nav__icon fa-lg" aria-hidden="true"></i>
+                        <% } %>
+                        <%- site.data.content_cz[i].title %></span></a></li>
+            <% } %>
+            <li class="menu-nav__lang-btn"><a href="#"><span class="menu-nav__lang-btn--span"><img src="./img/blank.gif" class="flag flag-cz" alt="Czech Republic" /></span></a> <a
+                        href="./en"><img src="./img/blank.gif" class="flag flag-gb" alt="Czech Republic" /></span></a>
+            </li>
+        </ul>
+    </nav>
+    <i class="fa fa-bars menu-nav__btn fa-3x" aria-hidden="true"></i>
+</div>

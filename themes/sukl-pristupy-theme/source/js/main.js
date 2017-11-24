@@ -135,6 +135,10 @@ Main.prototype = {
             self.getCS('container').style.display = 'block';
             self.getCS('menu').style.display = 'block';
             self.onResize(self);
+            if(self.windowUrl.indexOf('#') !== -1) {
+                console.log(self.windowUrl.substring(self.windowUrl.indexOf('#')+1, self.windowUrl.length))
+                document.getElementById(self.windowUrl.substring(self.windowUrl.indexOf('#')+1, self.windowUrl.length)).scrollIntoView();
+            }
         }, 2000);
     },
     init: function (self) {
@@ -164,6 +168,7 @@ Main.prototype = {
                 videoButtons[i].addEventListener('click', self.videoBtnOnClick.bind(undefined, self), false);
             }
 
+            self.windowUrl = window.location.href;
             self.onResize(self);
             setTimeout(self.initialize.bind(undefined, self), 2000);
         }

@@ -28,6 +28,7 @@ Main.prototype = {
             self.getCS('menu-nav__logo').style.color = "#fff";
             self.getCS('menu-nav__logo-span').style.top = "31px";
             self.getCS('menu-nav__links').style.marginTop = "-7px";
+            self.getCS('menu-nav__logo-symbol').style.fill = "#fff";
             if(self.mobileSize) {
                 self.getCS('menu-nav__links').style.top = "72px";
                 self.getCS('menu-nav__links').style.backgroundColor = "rgba(43,70,175, .95)";
@@ -36,7 +37,6 @@ Main.prototype = {
             }
             self.getCS('menu-nav__btn').style.color = "#fff";
             self.getCS('menu-nav__btn').style.top = "9px";
-            self.getCS('menu-nav__logo-symbol').style.backgroundImage = "url('../img/request-logo.png')";
         } else {
             self.linkHoverColor = "#4a5ec4"
             self.getCS('menu').style.backgroundColor = 'rgba(255,255,255, 0)';
@@ -57,7 +57,7 @@ Main.prototype = {
             }
             self.getCS('menu-nav__btn').style.color = "#2b46af";
             self.getCS('menu-nav__btn').style.top = "15px";
-            self.getCS('menu-nav__logo-symbol').style.backgroundImage = "url('../img/request-logo.png')";
+            self.getCS('menu-nav__logo-symbol').style.fill = "#003278";
         }
     },
     onResize: function (self, e) {
@@ -131,8 +131,10 @@ Main.prototype = {
         self.resiziMap = true;
 
         setTimeout(function(){
+            self.getCS('sk-cube-grid').style.display = 'none';
             self.getCS('container').style.display = 'block';
             self.getCS('menu').style.display = 'block';
+            self.onResize(self);
         }, 2000);
     },
     init: function (self) {

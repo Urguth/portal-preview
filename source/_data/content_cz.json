@@ -1,7 +1,15 @@
 [
   {
     "title": "Informace",
-    "tag":"informace",
+    "tag": "domu",
+    "partialId": "section-welcome",
+    "backgroundImg": "welcome-img.png",
+    "logoName": "přístup"
+  },
+  {
+    "title": "Informace",
+    "tag": "informace",
+    "partialId": "section-information",
     "sectionLogo": "info-logo.png",
     "description": "Informace pro subjekty a zdravotnické odborníky přistupující k IT systémům SÚKL",
     "content": [
@@ -30,7 +38,8 @@
   },
   {
     "title": "Žádosti",
-    "tag":"zadosti",
+    "tag": "zadosti",
+    "partialId": "section-requests",
     "sectionLogo": "request-logo.png",
     "description": "Žádosti o přístup k IT systémům SÚKL",
     "content": [
@@ -155,37 +164,48 @@
   },
   {
     "title": "Hlášení",
-    "tag":"hlaseni",
+    "tag": "hlaseni",
+    "partialId": "section-reports",
     "sectionLogo": "report-logo.png",
     "description": "Hlášení dodávek distribuovaných humánních léčivých přípravků",
     "content": [
       {
         "logo": "fa-plus-square",
+        "title": "DIS13",
         "tabContent": [
           {
             "title": "Formulář DIS13 v5",
-            "logo": "fa-plus-square",
-            "url": "#"
+            "logo": "fa-list-alt",
+            "pictogram": "fa-external-link",
+            "url": "https://api.sukl.cz/dis13_forms.html",
+            "target": "_blank"
           },
           {
             "title": "Často kladené otázky a odpovědi k DIS13 v5",
-            "logo": "fa-plus-square",
-            "url": "#"
+            "logo": "fa-question-circle",
+            "pictogram": "fa-file-text-o",
+            "url": "https://pristupy.sukl.cz/dokumenty/FAQ_k_DIS13.pdf",
+            "target": "_blank"
           }
         ]
       },
       {
         "logo": "fa-plus-square",
+        "title": "REG13",
         "tabContent": [
           {
             "title": "Formulář REG13",
-            "logo": "fa-plus-square",
-            "url": "#"
+            "logo": "fa-list-alt",
+            "pictogram": "fa-external-link",
+            "url": "#",
+            "target": "_blank"
           },
           {
             "title": "Často kladené otázky a odpovědi k REG13",
-            "logo": "fa-plus-square",
-            "url": "#"
+            "logo": "fa-question-circle",
+            "pictogram": "fa-file-text-o",
+            "url": "#",
+            "target": "_blank"
           }
         ]
       }
@@ -193,56 +213,59 @@
   },
   {
     "title": "Portál Externích Identit",
-    "tag":"portal-externich-identit",
+    "tag": "portal-externich-identit",
+    "partialId": "section-external-identity",
     "sectionLogo": "",
     "description": "Žádosti o přístup k IT systémům SÚKL",
     "content": [
       {
         "title": "Portál externích identit [momentálně pouze generování certifikátu]",
-        "logo": "fa-plus-square",
-        "description": "",
-        "url": "#",
+        "logo": "fa-sign-in",
+        "description": "Přejít na link >",
+        "url": "https://pristupy.sukl.cz/cert_request.html#/prihlasit",
         "target": "_blank"
       },
       {
         "title": "Návod v pdf",
-        "logo": "fa-plus-square",
-        "description": "",
-        "url": "#",
+        "logo": "fa-file-pdf-o",
+        "description": "Přejít na link >",
+        "url": "https://pristupy.sukl.cz/dokumenty/ei_navod.pdf",
         "target": "_blank"
       },
       {
         "title": "Návod na aktivaci účtu SÚKL a generování certifikátu pro přístup do CÚR",
-        "logo": "fa-plus-square",
-        "description": "",
-        "url": "#",
+        "logo": "fa-list-alt",
+        "description": "Přejít na link >",
+        "url": "https://www.epreskripce.cz/navod-na-aktivaci-uctu-sukl-vygenerovani-certifikatu-pro-pristup-do-centralniho-uloziste-receptu",
         "target": "_blank"
       }
     ]
   },
   {
     "title": "Videa",
-    "tag":"videa",
+    "tag": "videa",
+    "partialId": "section-videos",
     "sectionLogo": "video-logo.png",
     "description": "Instruktážní videa pro hlášení DIS13",
     "content": [
       {
-        "title":"DIS13",
-        "description":"Založení nového hlášení",
-        "type":"(Instruktážní video)",
-        "videoId":"xobCAc57Y4w"
+        "title": "DIS13",
+        "description": "Založení nového hlášení",
+        "type": "(Instruktážní video)",
+        "videoId": "xobCAc57Y4w"
       },
       {
-        "title":"DIS13",
-        "description":"Založení nového prohlášení o nedistribuci",
-        "type":"(Instruktážní video)",
-        "videoId":"fAtYv5dER2g"
+        "title": "DIS13",
+        "description": "Založení nového prohlášení o nedistribuci",
+        "type": "(Instruktážní video)",
+        "videoId": "fAtYv5dER2g"
       }
     ]
   },
   {
     "title": "Kontakt",
-    "tag":"kontakt",
+    "tag": "kontakt",
+    "partialId": "section-contact",
     "sectionLogo": "kontakt-logo.png",
     "content": [
       {

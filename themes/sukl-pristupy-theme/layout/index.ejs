@@ -1,23 +1,4 @@
-
-<!-- Welcome Section -->
-<%- partial('_partial/section-welcome') %>
-
-<!-- Information Section -->
-<%- partial('_partial/section-information') %>
-
-<!-- Requests Section -->
-<%- partial('_partial/section-requests') %>
-
-<!-- Reports Section -->
-<%- partial('_partial/section-reports') %>
-
-<!-- External Identity Section -->
-<%- partial('_partial/section-external-identity') %>
-
-<!-- Videos Section -->
-<%- partial('_partial/section-videos') %>
-
-<!-- Contacts Section -->
-<%- partial('_partial/section-contact') %>
-
-
+<% for (var i in site.data.content_cz){ %>
+<% var path = '_partial/'+site.data.content_cz[i].partialId %>
+<%- partial(path, {count: i}) %>
+<% } %>

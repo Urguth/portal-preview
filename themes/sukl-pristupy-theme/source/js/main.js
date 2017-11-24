@@ -129,8 +129,11 @@ Main.prototype = {
         });
 
         self.resiziMap = true;
-        self.getCS('container').style.display = 'block';
-        self.getCS('menu').style.display = 'block';
+
+        setTimeout(function(){
+            self.getCS('container').style.display = 'block';
+            self.getCS('menu').style.display = 'block';
+        }, 2000);
     },
     init: function (self) {
         window.addEventListener('resize', self.onResize.bind(undefined, self));

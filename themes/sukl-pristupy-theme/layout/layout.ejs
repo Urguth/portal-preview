@@ -9,10 +9,10 @@
 <html class="no-js" lang="cz"> <!--<![endif]-->
 
 
-<% var json = site.data.content_en %>
+<% var json = site.data.content_cz %>
 
 <!-- Head -->
-<%- partial('_partial/head') %>
+<%- partial('_partial/head', {jsonName: json}) %>
 
 <body>
 

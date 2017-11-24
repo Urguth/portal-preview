@@ -6,8 +6,12 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
-language:
+author: Iniba
+language: [cz,en]
+# config hexo-generator-i18n option (optional, this is default option)
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]
 timezone:
 
 # URL

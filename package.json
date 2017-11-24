@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.4.1"
+    "version": "3.4.2"
   },
   "dependencies": {
     "hexo": "^3.2.0",
@@ -15,5 +15,13 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-server": "^0.2.0"
+  },
+  "scripts": {
+    "clean": "hexo clean",
+    "server": "hexo server --debug",
+    "migrate": "hexo migrate dropbox",
+    "start": "hexo migrate dropbox && hexo server -p $PORT",
+    "generate": "hexo generate",
+    "deploy": "hexo generate --deploy"
   }
 }

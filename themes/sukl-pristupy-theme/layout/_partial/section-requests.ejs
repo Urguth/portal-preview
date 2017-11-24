@@ -1,25 +1,25 @@
-<section id="<%- site.data.content_cz[count].tag %>" class="section section-request">
+<section id="<%- jsonName[count].tag %>" class="section section-request">
     <div class="section-symbol section-symbol--blue">
-        <img class="section-symbol__logo" src="./img/<%- site.data.content_cz[count].sectionLogo %>" alt="information-image">
+        <img class="section-symbol__logo" src="./img/<%- jsonName[count].sectionLogo %>" alt="information-image">
     </div>
     <div class="section-table section-margin">
-        <h2 class="section__title white-color"><%- site.data.content_cz[count].title %></h2>
+        <h2 class="section__title white-color"><%- jsonName[count].title %></h2>
         <div class="section__line-container">
             <div class="section__line-1"></div>
             <div class="section__line-2"></div>
         </div>
-        <p class="section__description white-color"><%- site.data.content_cz[count].description %></p>
+        <p class="section__description white-color"><%- jsonName[count].description %></p>
         <div class="section-tabs">
-            <% for (var i in site.data.content_cz[count].content){ %>
+            <% for (var i in jsonName[count].content){ %>
             <div class="row-4 section-tab">
-                <a href="<%- site.data.content_cz[count].content[i].url1 %>" target="<%- site.data.content_cz[count].content[i].target %>">
+                <a href="<%- jsonName[count].content[i].url1 %>" target="<%- jsonName[count].content[i].target %>">
                     <div class="section-tab__table">
                         <div class="section-tab__table-inner">
-                            <i class="fa <%- site.data.content_cz[count].content[i].logo %> fa-3x section-tab__icon"
+                            <i class="fa <%- jsonName[count].content[i].logo %> fa-3x section-tab__icon"
                                aria-hidden="true"></i>
-                            <div class="section-tab__title"><%- site.data.content_cz[count].content[i].title %></div>
+                            <div class="section-tab__title"><%- jsonName[count].content[i].title %></div>
                             <div class="section-tab__spen"></div>
-                            <div class="section-tab__description"><%- site.data.content_cz[count].content[i].description %></div>
+                            <div class="section-tab__description"><%- jsonName[count].content[i].description %></div>
                         </div>
                     </div>
                 </a>

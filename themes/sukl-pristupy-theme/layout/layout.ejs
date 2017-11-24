@@ -8,6 +8,9 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="cz"> <!--<![endif]-->
 
+
+<% var json = site.data.content_cz %>
+
 <!-- Head -->
 <%- partial('_partial/head') %>
 
@@ -17,10 +20,13 @@
 <%- partial('_partial/loader') %>
 
 <!-- Menu -->
-<%- partial('_partial/menu') %>
+<%- partial('_partial/menu', {jsonName: json}) %>
 
 <div class="container" style="display: none">
-    <%- body %>
+    <% for (var i in site.data.content_cz){ %>
+    <% var path = '_partial/'+site.data.content_cz[i].partialId %>
+    <%- partial(path, {count: i, jsonName: json}) %>
+    <% } %>
 </div>
 
 <!-- Youtube Player -->

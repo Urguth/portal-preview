@@ -101,6 +101,7 @@ strong {
 
 .section-tabs {
     margin: 40px auto 0 auto;
+    word-spacing : -4px ;
     display: table;
     height: 100%;
     width: 100%;
@@ -108,11 +109,14 @@ strong {
 }
 
 .section-tab {
+    display: inline-block;
     position: relative;
     background-color: #2b46af;
     margin: 10px;
     height: 300px;
-    display: inline-block;
+    word-spacing : normal;
+    vertical-align:top;
+    overflow: hidden;
     transition: all .3s ease;
 }
 
@@ -132,7 +136,7 @@ strong {
 
 .section-tab__table-button {
     display: inline-block;
-    margin: 6px 0;
+    margin: 4px 0;
     padding: 12px 18px;
     text-align: left;
     border-radius: 3px;
@@ -213,11 +217,40 @@ strong {
     transition: all .3s ease;
 }
 
+.section-tab__foreground-content {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43,70,175, .95);
+    z-index: 700;
+    transition: top .5s ease;
+}
+
+.section-tab:hover .section-tab__foreground-content {
+    top: 0;
+}
+
+.section-tab__foreground-icon {
+    position: absolute;
+    margin: 0 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .8;
+    color: #fff;
+    transition: opacity .3s ease;
+}
+
+.section-tab__foreground-icon:hover {
+    opacity: 1;
+}
 
 .section__title {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 45px;
     color: #2b46af;
 }
 
@@ -318,6 +351,7 @@ strong {
 */
 
 .menu {
+    display: none;
     position: fixed;
     width: 100%;
     height: 80px;
@@ -340,8 +374,6 @@ strong {
     color: #003278;
     transition: margin-top .3s ease, width .3s ease;
 }
-
-
 
 .menu-nav__logo-span {
     position: absolute;
@@ -420,9 +452,20 @@ strong {
 
 .section-welcome {
     display: table;
+    position: relative;
     width: 100%;
     height: 620px;
     background-image: url("../img/welcome-img.png");
+}
+
+.section-welcome__foreground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity .3s ease;
+    background-image: url("../img/welcome-foreground-img.png");
 }
 
 /*******
@@ -443,18 +486,32 @@ strong {
  */
 
 .section-request {
-    background: -webkit-linear-gradient(-180deg, rgb(74, 94, 196), rgb(43, 70, 175));
-    background: linear-gradient(-180deg, rgb(74, 94, 196), rgb(43, 70, 175));
+
+    background: rgba(74,94,196,1);
+    background: -moz-linear-gradient(-45deg, rgba(74,94,196,1) 0%, rgba(37,64,143,1) 51%, rgba(43,70,175,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(74,94,196,1)), color-stop(51%, rgba(37,64,143,1)), color-stop(100%, rgba(43,70,175,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(74,94,196,1) 0%, rgba(37,64,143,1) 51%, rgba(43,70,175,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(74,94,196,1) 0%, rgba(37,64,143,1) 51%, rgba(43,70,175,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(74,94,196,1) 0%, rgba(37,64,143,1) 51%, rgba(43,70,175,1) 100%);
+    background: linear-gradient(135deg, rgba(74,94,196,1) 0%, rgba(37,64,143,1) 51%, rgba(43,70,175,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a5ec4', endColorstr='#2b46af', GradientType=1 );
+
+}
+
+.section-request .section-symbol {
+    background: linear-gradient(0deg, rgba(255,255,255,0) 50%, #384faa 50%);
+}
+
+.section-request .section-tabs {
+    background-color: transparent;
 }
 
 .section-request .section-tab {
-    margin: 0;
+    margin: 2px;
+    padding: 20px 0;
+    height: 350px;
     background-color: transparent;
-    outline: solid 1px #fff;
-}
-
-.section-request .section-tab__table {
-    opacity: .7;
+    border: solid 1px rgba(255,255,255, .2);
 }
 
 .section-request .section-tab:hover  {
@@ -466,10 +523,6 @@ strong {
     border-radius: 3px;
     padding: 10px;
     background-color: rgba(255, 255, 255, .1);
-}
-
-.section-request .section-tab:hover .section-tab__table  {
-    opacity: 1;
 }
 
 .section-request .section-tab:hover .section-tab__icon {
@@ -503,7 +556,6 @@ strong {
     background-color: #E2E7FC;
 }
 
-
 .section-reports .section-tab:hover  {
     background-color: #fff;
 }
@@ -521,8 +573,9 @@ strong {
 .section-reports .section-tab__title {
     color: #3853bc;
     font-weight: 900;
-    font-size: 40px;
-    margin: 0 0 40px 0;
+    font-size: 30px;
+    text-align: left;
+    margin: 0 15px 10px 15px;
 }
 
 .section-reports .section-tab__table-button:hover {
@@ -530,14 +583,14 @@ strong {
 }
 
 .section-reports .section-tab__table-button .section-tab__title {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     margin: 0;
     text-align: left;
 }
 
 .section-reports .section-tab__table-button .section-tab__icon {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /*******
@@ -552,7 +605,7 @@ strong {
     height: 450px;
     opacity: .7;
     border-radius: 3px;
-    border: solid 1px rgba(255,255,255,.8);
+    box-shadow: 0 0 1px #fff;
     background-color: transparent;
 }
 
@@ -575,7 +628,7 @@ strong {
 }
 
 .section-external-identity .section-tab:hover  {
-    box-shadow: none;
+    box-shadow: 0 0 1px #fff;
     opacity: 1;
 }
 
@@ -633,39 +686,105 @@ strong {
 }
 
 .section-videos .section-table {
-    margin: 80px auto;
+    margin: 120px auto;
+}
+
+.section-videos .section-tabs {
+    background-color: transparent;
 }
 
 .section-videos .section-tab {
-    margin: 0 1px 0 0;
+    margin: 0;
+    display: block;
+    float: none;
 }
 
+.section-videos .section-tab__row-header {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30%;
+    float: left;
+    transform: translateY(-50%);
+}
+
+.section-videos .section-tab__video-tab {
+    width: 70%;
+    float: right;
+    height: 130px !important;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.section-videos .section-tab__video-tab:first-child {
+    margin-top: 0;
+
+}
+
+.section-videos .section-tab__video-tab:last-child {
+    margin-bottom: 0;
+}
+
+
 .section-videos .section-tab:hover  {
-    background-color: #2b46af;
+    background-color: #4a5ec4;
+    /*box-shadow: inset -8px -8px 0px #2b46af;*/
     box-shadow: none;
 }
 
 .section-videos .section-tab:hover .section-tab__table-inner {
-    transform: scale(.95);
+    /*transform: scale(.95);*/
+
 }
 
 .section-videos .section-tab__table-inner {
-    transition: all .3s ease;
+    padding: 0 35px;
 }
 
 .section-videos .section-tab__title {
-    font-size: 30px;
-    font-weight: 700;
-    padding: 5px 10px 5px 10px;
+    margin: 0;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: left;
 }
 
 .section-videos .section-tab__description {
-    padding: 5px 10px 5px 10px;
-    font-weight: 500;
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
 }
 
 .section-videos .section-tab__type {
-    padding: 5px 10px 5px 10px;
+    text-align: left;
+    font-style: italic;
+}
+
+.section-tab__play-btn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 130px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 130px;
+    padding: 0 25px;
+    color: #fff;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #2b46af;
+}
+
+.section-videos .section-tab:hover .section-tab__play-btn {
+    opacity: 1;
+}
+
+.section-videos .section-tab:hover .section-tab__icon {
+    animation: video_button_animation .5s;
+}
+
+.section-videos .section-tab__icon {
+    margin: 0 10px 0 0;
 }
 
 .section-videos .section-tab:hover .section-tab__icon {
@@ -689,17 +808,39 @@ strong {
     background-color: transparent;
 }
 
+@keyframes video_button_animation {
+    0% {
+        transform: translate3d(0, 0, 0) scale(1) rotate(.01deg);
+        animation-timing-function: cubic-bezier(.375, .845, .59, .99);
+    }
+    50% {
+        transform: translate3d(4px, 0, 0) scale(1) rotate(.01deg);
+        animation-timing-function: cubic-bezier(.375, .845, .59, .99);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) scale(1) rotate(.01deg);
+        animation-timing-function: cubic-bezier(.375, .845, .59, .99);
+    }
+}
+
 /********
     CONTACT SECTION
  */
 
 .section-contact {
-    margin: 1px 0 0 0;
-    height: 480px;
+    width: 100%;
+    height: 500px;
+}
+
+.line-separate {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #fff 50%, #fff 50%);
 }
 
 #map {
-    width: 100%;
+    float: left;
+    width: 50%;
     height: 100%;
     overflow: hidden;
     -webkit-filter: grayscale(100%);
@@ -710,14 +851,12 @@ strong {
 }
 
 .section-contact .section-table {
-    position: absolute;
     display: table;
-    top: 0;
-    right: 0;
+    float: left;
     width: 50%;
     height: 100%;
     /*background-color: rgba(0,0,0, .8);*/
-    background-color: rgba(43,70,175, .8);
+    background-color: rgba(43,70,175, 1);
 }
 
 .section-table__title {
@@ -933,5 +1072,110 @@ strong {
     }
     .menu-nav__btn {
         display: block;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .menu {
+        height: 40px;
+    }
+
+    .menu .menu-nav__btn {
+        top: 20px;
+        font-size: 40px;
+    }
+
+    .section-welcome {
+        height: 400px;
+    }
+
+    .section-information .section-table .section-tabs .row-3 {
+        width: 45%;
+    }
+
+    .section-request .section-table .section-tabs .row-3 {
+        width: 48%;
+    }
+
+    .section-reports .section-table .section-tabs .row-2 {
+        width: 100%;
+    }
+
+    .section-external-identity .section-table .section-tabs .row-3 {
+        width: 45%;
+    }
+
+    .section-videos .section-tab__row-header {
+        position: relative;
+        top: auto;
+        width: 100%;
+        float: left;
+        transform: none;
+    }
+
+    .section-videos .section-tab__video-tab {
+        width: 100%;
+        float: left;
+    }
+
+    .section-contact {
+        height: auto;
+    }
+
+    #map {
+        width: 100%;
+        height: 300px;
+    }
+
+    .section-contact .section-table {
+        width: 100%;
+    }
+
+    .section-contact .section-table__a, .section-contact .section-table__b {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .section-welcome {
+        height: 300px;
+    }
+
+    .section-information .section-tab {
+        margin: 10px 0;
+    }
+
+    .section-information .section-table .section-tabs .row-3 {
+        width: 93%;
+    }
+
+    .section-request .section-tab__table-inner {
+        padding: 0 12%;
+    }
+
+    .section-request .section-tab {
+        margin: 2px 0;
+    }
+
+    .section-request .section-table .section-tabs .row-3 {
+        width: 93%;
+    }
+
+    .section-reports .section-table .section-tabs .row-2 {
+        width: 93%;
+    }
+
+    .section-external-identity .section-table .section-tabs .row-3 {
+        width: 93%;
+    }
+
+    .section-videos .section-tab__row-header {
+        width: 93%;
+    }
+
+    .section-videos .section-tab__video-tab {
+        width: 93%;
     }
 }

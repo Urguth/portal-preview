@@ -1,8 +1,8 @@
 
 <section id="<%- jsonName[count].tag %>" class="section section-videos">
-    <div class="section-table">
+    <div class="section-table section-margin">
         <div class="section-tabs">
-            <div class="row-3 section-tab video-btn-disable-hover">
+            <div class="section-tab video-btn-disable-hover section-tab__row-header">
                 <div class="section-tab__table">
                     <div class="section-tab__table-inner">
                         <div class="section-symbol background-config">
@@ -19,15 +19,15 @@
                 </div>
             </div>
             <% for (var i in jsonName[count].content){ %>
-            <div class="row-3 section-tab video-btn-bg video-btn-pointer"
-                 id="<%- jsonName[count].content[i].videoId %>">
+            <div class="section-tab video-btn-bg video-btn-pointer section-tab__video-tab" id="<%- jsonName[count].content[i].videoId %>">
                 <div class="section-tab__table">
                     <div class="section-tab__table-inner">
-                        <div class="section-tab__title"><%- jsonName[count].content[i].title %></div>
+                        <h3 class="section-tab__title"><%- jsonName[count].content[i].title %></h3>
                         <div class="section-tab__description"><%- jsonName[count].content[i].description %></div>
                         <div class="section-tab__type"><%- jsonName[count].content[i].type %></div>
                     </div>
                 </div>
+                <div class="section-tab__play-btn"><i class="fa fa-play section-tab__icon fa-1g" aria-hidden="true"></i><span><%- jsonName[count].videoBtn %></span></div>
             </div>
             <% } %>
         </div>

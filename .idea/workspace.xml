@@ -2,7 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0bceafe-7830-4173-a004-294a169fca29" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/2017/11/23/a/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/2017/11/23/b/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/archives/2017/11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/archives/2017/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/archives/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/css/vendor/flags.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/css/vendor/flags.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/css/vendor/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/en/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/external-identity-img.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/info-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/report-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/request-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/video-circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/video-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/video-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/img/welcome-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OUTPUT/js/vendor/smooth-scroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/languages/cz.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/languages/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/request-logo.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/info-logo.png" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/info-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/lock.png" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/lock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/report-logo.png" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/report-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/video-circle.png" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/video-circle.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/video-img.png" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/video-img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/video-logo.png" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/video-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/welcome-img.png" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/welcome-img.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_data/content_cz.json" afterPath="$PROJECT_DIR$/source/_data/content_cz.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_data/content_en.json" afterPath="$PROJECT_DIR$/source/_data/content_en.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/head.ejs" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/head.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/menu.ejs" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/menu.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-contact.ejs" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-contact.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-reports.ejs" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-reports.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-requests.ejs" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-requests.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-videos.ejs" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-videos.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-welcome.ejs" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-welcome.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/layout.ejs" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/layout.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/css/main.css" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/js/main.js" afterPath="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,22 +68,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/index.ejs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/layout.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -40,32 +83,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reports</find>
-      <find>section-tab</find>
-      <find>section-tab__title</find>
-      <find>section-tab__icon</find>
-      <find>section-tab__table-button</find>
-      <find>lock</find>
-      <find>button</find>
-      <find>section-tab__icon--opacity</find>
-      <find>info</find>
-      <find>box-shadow</find>
-      <find>[0]</find>
-      <find>[5]</find>
-      <find>[3]</find>
-      <find>[2]</find>
-      <find>[1]</find>
-      <find>[4]</find>
-      <find>fill</find>
+      <find>map</find>
+      <find>backg</find>
+      <find>box-sha</find>
+      <find>timeout</find>
+      <find>conta</find>
+      <find>menu-nav__btn</find>
       <find>menu</find>
-      <find>menu-nav__logo-symbol</find>
-      <find>setTimeout</find>
+      <find>80px</find>
+      <find>back</find>
+      <find>button</find>
+      <find>section-tab</find>
+      <find>section-tab__video-tab</find>
+      <find>mobileSize</find>
+      <find>section-tab__table-inner</find>
+      <find>righ</find>
+      <find>icon</find>
+      <find>button_1_animation</find>
+      <find>keyframes</find>
+      <find>ico</find>
+      <find>title</find>
+      <find>endFrame_AnimBack</find>
+      <find>welcome</find>
+      <find>section-tab__title</find>
+      <find>requ</find>
       <find>video</find>
-      <find>content_cz</find>
-      <find>site.data.content_cz</find>
-      <find>lock.png</find>
-      <find>l</find>
-      <find>i18n</find>
+      <find>section-tab__de</find>
+      <find>section-tab__foreground-content</find>
+      <find>req</find>
+      <find>img</find>
+      <find>documents</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,30 +121,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/loader.ejs" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/css/main.css" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/js/main.js" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/menu.ejs" />
         <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/index.ejs" />
         <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-information.ejs" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-contact.ejs" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-reports.ejs" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-requests.ejs" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-videos.ejs" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-welcome.ejs" />
         <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-external-identity.ejs" />
-        <option value="$PROJECT_DIR$/OUTPUT/index.html" />
-        <option value="$PROJECT_DIR$/OUTPUT/en/index.html" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/layout.ejs" />
-        <option value="$PROJECT_DIR$/source/_data/content_cz.json" />
-        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/head.ejs" />
-        <option value="$PROJECT_DIR$/source/_data/content_en.json" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/languages/cz.json" />
         <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/languages/en.json" />
         <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/config.yml" />
         <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/en/index.ejs" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-reports.ejs" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/head.ejs" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-contact.ejs" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-welcome.ejs" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/js/main.js" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-videos.ejs" />
+        <option value="$PROJECT_DIR$/source/_data/content_cz.json" />
+        <option value="$PROJECT_DIR$/source/_data/content_en.json" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-requests.ejs" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/source/css/main.css" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/menu.ejs" />
+        <option value="$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/layout.ejs" />
+        <option value="$PROJECT_DIR$/OUTPUT/css/main.css" />
+        <option value="$PROJECT_DIR$/OUTPUT/index.html" />
+        <option value="$PROJECT_DIR$/OUTPUT/en/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -112,7 +160,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1280" />
-    <option name="width" value="1280" />
+    <option name="width" value="1281" />
     <option name="height" value="2120" />
   </component>
   <component name="ProjectView">
@@ -164,7 +212,7 @@
               <item name="portal" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="sukl-pristupy-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portal" type="b2602c69:ProjectViewProjectNode" />
@@ -172,13 +220,37 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="sukl-pristupy-theme" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="_partial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="sukl-pristupy-theme" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="sukl-pristupy-theme" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="sukl-pristupy-theme" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,32 +287,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511469931840</updated>
-      <workItem from="1511469933114" duration="47531000" />
+      <workItem from="1511469933114" duration="48491000" />
+      <workItem from="1511575349258" duration="15000" />
+      <workItem from="1511611742020" duration="11455000" />
+      <workItem from="1511629002656" duration="17091000" />
+      <workItem from="1511654990162" duration="20788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47531000" />
+    <option name="totallyTimeSpent" value="97840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1280" height="2120" extended-state="0" />
+    <frame x="1280" y="0" width="1281" height="2120" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24879228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24859211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296371" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296371" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -255,18 +331,72 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-requests.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="98" lean-forward="true" selection-start-line="8" selection-start-column="98" selection-end-line="8" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/source/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="360" column="30" lean-forward="true" selection-start-line="360" selection-start-column="30" selection-end-line="360" selection-end-column="30" />
+        <state relative-caret-position="7599">
+          <caret line="447" column="4" lean-forward="false" selection-start-line="447" selection-start-column="4" selection-end-line="447" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -275,63 +405,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/source/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1137">
-          <caret line="176" column="0" lean-forward="true" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-requests.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="78" lean-forward="false" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-reports.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="106" lean-forward="false" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/source/img/logo.svg" />
     <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-information.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-videos.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-welcome.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -339,15 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OUTPUT/en/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="161" column="4" lean-forward="false" selection-start-line="161" selection-start-column="4" selection-end-line="161" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -355,23 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OUTPUT/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="152" column="12" lean-forward="true" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-contact.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="30" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -379,15 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/head.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -403,7 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -411,7 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -419,7 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -427,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -435,7 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,7 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -451,7 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -459,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,50 +512,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_data/content_cz.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/languages/cz.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="286" column="0" lean-forward="true" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_data/content_en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/languages/en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4862">
-          <caret line="286" column="0" lean-forward="true" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/languages/cz.json" />
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/languages/en.json" />
     <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -527,10 +525,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/menu.ejs">
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/en/index.ejs" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="44" />
+        <state relative-caret-position="969">
+          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -539,22 +538,155 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-reports.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-contact.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4472.38629/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/en/index.ejs">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa5580.40941/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa2604.43105/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="225" column="28" lean-forward="false" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-welcome.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/source/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-videos.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_data/content_cz.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="185" column="41" lean-forward="false" selection-start-line="185" selection-start-column="41" selection-end-line="185" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/section-requests.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_data/content_en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="249" column="38" lean-forward="false" selection-start-line="249" selection-start-column="38" selection-end-line="249" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="73" lean-forward="false" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OUTPUT/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="155" column="12" lean-forward="true" selection-start-line="155" selection-start-column="12" selection-end-line="155" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OUTPUT/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15204" lean-forward="false" selection-start-line="0" selection-start-column="15204" selection-end-line="0" selection-end-column="15204" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OUTPUT/en/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="165" column="6" lean-forward="true" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/layout.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/layout/_partial/menu.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sukl-pristupy-theme/source/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>

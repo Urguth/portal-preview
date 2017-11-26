@@ -1,7 +1,4 @@
 <section id="<%- jsonName[count].tag %>" class="section section-request">
-    <div class="section-symbol section-symbol--blue">
-        <img class="section-symbol__logo" src="./img/<%- jsonName[count].sectionLogo %>" alt="information-image">
-    </div>
     <div class="section-table section-margin">
         <h2 class="section__title white-color"><%- jsonName[count].title %></h2>
         <div class="section__line-container">
@@ -11,18 +8,24 @@
         <p class="section__description white-color"><%- jsonName[count].description %></p>
         <div class="section-tabs">
             <% for (var i in jsonName[count].content){ %>
-            <div class="row-4 section-tab">
-                <a href="<%- jsonName[count].content[i].url1 %>" target="<%- jsonName[count].content[i].target %>">
-                    <div class="section-tab__table">
-                        <div class="section-tab__table-inner">
-                            <i class="fa <%- jsonName[count].content[i].logo %> fa-3x section-tab__icon"
-                               aria-hidden="true"></i>
-                            <div class="section-tab__title"><%- jsonName[count].content[i].title %></div>
-                            <div class="section-tab__spen"></div>
-                            <div class="section-tab__description"><%- jsonName[count].content[i].description %></div>
-                        </div>
+            <div class="row-3 section-tab">
+                <div class="section-tab__foreground-content">
+                    <% if(jsonName[count].content[i].doubleUrl) { %>
+                    <% } else { %>
+                    <a href="<%- jsonName[count].content[i].url1 %>" target="<%- jsonName[count].content[i].target %>">
+                        <i class="fa <%- jsonName[count].content[i].pictogram1 %> fa-3x section-tab__foreground-icon" aria-hidden="true"></i>
+                    </a>
+                    <% } %>
+                </div>
+                <div class="section-tab__table">
+                    <div class="section-tab__table-inner">
+                        <i class="fa <%- jsonName[count].content[i].logo %> fa-3x section-tab__icon"
+                           aria-hidden="true"></i>
+                        <div class="section-tab__title"><%- jsonName[count].content[i].title %></div>
+                        <div class="section-tab__spen"></div>
+                        <div class="section-tab__description"><%- jsonName[count].content[i].description %></div>
                     </div>
-                </a>
+                </div>
             </div>
             <% } %>
         </div>

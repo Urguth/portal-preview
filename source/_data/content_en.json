@@ -50,6 +50,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekar",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -59,6 +61,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_ZZ",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -68,6 +72,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_LekarZZ",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -77,6 +83,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Stomatolog",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -86,6 +94,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_StomatologZZ",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -95,6 +105,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Nove_pristupove_udaje",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -104,6 +116,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekarna",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -113,6 +127,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekarna_zapojeni_CUER",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -122,6 +138,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekarnik",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -131,6 +149,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Vyrobce",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -140,6 +160,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Distributor",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -149,6 +171,8 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Reg",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       },
       {
@@ -158,13 +182,15 @@
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Nastaveni_specializace",
         "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
         "target": "_blank"
       }
     ]
   },
   {
-    "title": "Reporting",
-    "tag": "reporting",
+    "title": "Reports",
+    "tag": "reports",
     "partialId": "section-reports",
     "sectionLogo": "report-logo.png",
     "description": "Delivery reports of distributed human medicinal products",
@@ -247,6 +273,7 @@
     "partialId": "section-videos",
     "sectionLogo": "video-logo.png",
     "description": "Video tutorials for DIS 13",
+    "videoBtn": "Play video",
     "content": [
       {
         "title": "DIS13",

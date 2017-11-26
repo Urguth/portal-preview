@@ -8,6 +8,7 @@ function Main() {
     this.vp = this.getCS('vp');
     this.resiziMap = false;
     this.mobileSize = false;
+    this.hideMenu = false;
     this.btnCollapsedVisible = false;
 }
 
@@ -29,7 +30,7 @@ Main.prototype = {
             self.getCS('menu-nav__logo-span').style.top = "31px";
             self.getCS('menu-nav__links').style.marginTop = "-7px";
             self.getCS('menu-nav__logo-symbol').style.fill = "#fff";
-            if(self.mobileSize) {
+            if(self.hideMenu) {
                 self.getCS('menu-nav__links').style.top = "72px";
                 self.getCS('menu-nav__links').style.backgroundColor = "rgba(43,70,175, .95)";
             } else {
@@ -37,6 +38,7 @@ Main.prototype = {
             }
             self.getCS('menu-nav__btn').style.color = "#fff";
             self.getCS('menu-nav__btn').style.top = "9px";
+            self.getCS('section-welcome__foreground').style.opacity = "1";
         } else {
             self.linkHoverColor = "#4a5ec4"
             self.getCS('menu').style.backgroundColor = 'rgba(255,255,255, 0)';
@@ -49,7 +51,7 @@ Main.prototype = {
             self.getCS('menu-nav__logo').style.color = "#003278";
             self.getCS('menu-nav__logo-span').style.top = "33px";
             self.getCS('menu-nav__links').style.marginTop = "0px";
-            if(self.mobileSize) {
+            if(self.hideMenu) {
                 self.getCS('menu-nav__links').style.top = "80px";
                 self.getCS('menu-nav__links').style.backgroundColor = "rgba(255,255,255, .95)";
             }else {
@@ -58,12 +60,13 @@ Main.prototype = {
             self.getCS('menu-nav__btn').style.color = "#2b46af";
             self.getCS('menu-nav__btn').style.top = "15px";
             self.getCS('menu-nav__logo-symbol').style.fill = "#003278";
+            self.getCS('section-welcome__foreground').style.opacity = "1";
         }
     },
     onResize: function (self, e) {
         self.w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         self.h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-        self.w < 1080 ? [self.mobileSize = true, self.getCS('menu-nav__links').style.display = 'none'] : [self.mobileSize = false, self.getCS('menu-nav__links').style.display = 'block'];
+        self.w < 1080 ? [self.hideMenu = true, self.getCS('menu-nav__links').style.display = 'none'] : [self.hideMenu = false, self.getCS('menu-nav__links').style.display = 'block'];
         self.setPlayerSize(self.playerDefW, self.playerDefH, Math.round((self.w) / 1.2), Math.round((self.h) / 1.2));
         if (self.resiziMap) self.centerMap = self.map.getCenter(), google.maps.event.trigger(self.map, "resize"), self.map.setCenter(self.centerMap);
         self.scrolling(self);
@@ -95,7 +98,7 @@ Main.prototype = {
         }
     },
     menuLinkOnClick: function (self, e) {
-        if (self.mobileSize) {
+        if (self.hideMenu) {
             self.btnCollapsedVisible = false;
             self.getCS('menu-nav__links').style.display = 'none';
         }
@@ -108,7 +111,47 @@ Main.prototype = {
         var mapOptions = {
             zoom: 15,
             center: myLatlng,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{
+                "featureType": "landscape",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#ffffff"
+                }]
+            }, {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#efefef"
+                }]
+            }, {
+                "featureType": "water",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            }, {
+                "featureType": "road",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "visibility": "on"
+                }, {
+                    "color": "#dedddd"
+                }]
+            }, {
+                "featureType": "road",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "visibility": "on"
+                }, {
+                    "color": "#efefef"
+                }]
+            }, {
+                "featureType": "poi",
+                "elementType": "labels.icon",
+                "stylers": [{
+                    "visibility": "on"
+                }]
+            }]
         }
 
         self.map = new google.maps.Map(document.getElementById('map'), mapOptions);
@@ -139,7 +182,7 @@ Main.prototype = {
                 console.log(self.windowUrl.substring(self.windowUrl.indexOf('#')+1, self.windowUrl.length))
                 document.getElementById(self.windowUrl.substring(self.windowUrl.indexOf('#')+1, self.windowUrl.length)).scrollIntoView();
             }
-        }, 2000);
+        }, 1000);
     },
     init: function (self) {
         window.addEventListener('resize', self.onResize.bind(undefined, self));
@@ -170,7 +213,7 @@ Main.prototype = {
 
             self.windowUrl = window.location.href;
             self.onResize(self);
-            setTimeout(self.initialize.bind(undefined, self), 2000);
+            setTimeout(self.initialize.bind(undefined, self), 500);
         }
     }
 }

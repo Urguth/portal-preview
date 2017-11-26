@@ -19,6 +19,7 @@
                         <h2 class="section-tab__title"><%- jsonName[count].content[i].title %></h2>
                         <% for (var s in jsonName[count].content[i].tabContent){ %>
                         <a href="<%- jsonName[count].content[i].tabContent[s].url %>" target="<%- jsonName[count].content[i].tabContent[s].target %>">
+                            <br>
                             <div class="section-tab__table-button">
                                 <!-- <i class="fa <%- jsonName[count].content[i].tabContent[s].logo %> fa-2x section-tab__icon" aria-hidden="true"></i> -->
                                 <i class="fa <%- jsonName[count].content[i].tabContent[s].pictogram %> fa-2x section-tab__icon" aria-hidden="true"></i>

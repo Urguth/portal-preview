@@ -62,9 +62,17 @@
             </li>
             <% } %>
             <% } %>
-            <li class="menu-nav__lang-btn"><a href="#"><span class="menu-nav__lang-btn--span"><img src="./img/blank.gif" class="flag flag-cz" alt="Czech Republic"/></span></a>
-                <a href="./en"><img src="./img/blank.gif" class="flag flag-gb" alt="Czech Republic"/></span></a>
+
+            <% if(languageType === "cz") { %>
+                <li class="menu-nav__lang-btn"><a href="../index.html"><img src="./img/blank.gif" class="flag flag-cz" alt="Czech Republic"/></a>
+                    <a href="./index.html"><img src="./img/blank.gif" class="flag flag-gb" alt=""/></a>
+                </li>
+            <% } else { %>
+            <li class="menu-nav__lang-btn"><a href="./index.html"><img src="./img/blank.gif" class="flag flag-cz" alt="Czech Republic"/></a>
+                <a href="./en/index.html"><img src="./img/blank.gif" class="flag flag-gb" alt=""/></a>
             </li>
+            <% } %>
+
         </ul>
     </nav>
     <i class="fa fa-bars menu-nav__btn fa-3x" aria-hidden="true"></i>

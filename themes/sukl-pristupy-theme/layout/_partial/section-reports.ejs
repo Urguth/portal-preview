@@ -12,6 +12,32 @@
         <p class="section__description"><%- jsonName[count].description %></p>
         <div class="section-tabs">
             <% for (var i in jsonName[count].content){ %>
+            <% if(i == 1) { %>
+
+            <div class="row-2 section-tab disable-tab">
+                <img class="section-img__lock" src="./img/lock.png" alt="lock-img">
+                <div class="section-tab__table">
+                    <div class="section-tab__table-inner">
+                        <h2 class="section-tab__title"><%- jsonName[count].content[i].title %></h2>
+                        <% for (var s in jsonName[count].content[i].tabContent){ %>
+                        <a href="<%- jsonName[count].content[i].tabContent[s].url %>" target="<%- jsonName[count].content[i].tabContent[s].target %>">
+                            <br>
+                            <div class="section-tab__table-button">
+                                <!-- <i class="fa <%- jsonName[count].content[i].tabContent[s].logo %> fa-2x section-tab__icon" aria-hidden="true"></i> -->
+                                <i class="fa <%- jsonName[count].content[i].tabContent[s].pictogram %> fa-2x section-tab__icon" aria-hidden="true"></i>
+                                <span class="section-tab__title"><%- jsonName[count].content[i].tabContent[s].title %></span>
+                            </div>
+                        </a>
+                        <% } %>
+                    </div>
+                </div>
+
+                <div class="disable-block"></div>
+
+            </div>
+
+            <% } else { %>
+
             <div class="row-2 section-tab">
                 <img class="section-img__lock" src="./img/lock.png" alt="lock-img">
                 <div class="section-tab__table">
@@ -30,6 +56,9 @@
                     </div>
                 </div>
             </div>
+
+            <% } %>
+
             <% } %>
         </div>
     </div>

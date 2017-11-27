@@ -586,7 +586,7 @@ strong {
 }
 
 .section-reports .section-tab__table-button .section-tab__title {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     margin: 0;
     text-align: left;
@@ -596,9 +596,27 @@ strong {
     font-size: 20px;
 }
 
-/*******
-    EXTERNAL IDENTITY SECTION
- */
+.section-reports .disable-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.section-reports .disable-tab {
+    pointer-events:none;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+    /*******
+        EXTERNAL IDENTITY SECTION
+     */
 
 .section-external-identity {
     background-image: url("../img/external-identity-img.svg");

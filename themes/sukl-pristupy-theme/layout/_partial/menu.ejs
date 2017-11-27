@@ -55,7 +55,7 @@
             <% if(i != 0) { %>
             <li class="menu-nav__link"><a class="menu-nav__href" href="#<%- jsonName[i].tag %>"><span
                             class="menu-nav__span">
-                        <% if(jsonName[i].tag == "portal-externich-identit") { %>
+                        <% if(jsonName[i].tag == "portal-externich-identit" || jsonName[i].tag == "external-identity") { %>
                         <i class="fa fa-lock menu-nav__icon fa-lg" aria-hidden="true"></i>
                         <% } %>
                         <%- jsonName[i].title %></span></a>

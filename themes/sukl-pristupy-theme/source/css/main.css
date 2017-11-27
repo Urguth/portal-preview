@@ -96,7 +96,6 @@ strong {
     text-align:center;
     width: 93%;
     max-width: 1200px;
-    background-color: none;
 }
 
 .section-tabs {
@@ -105,7 +104,6 @@ strong {
     display: table;
     height: 100%;
     width: 100%;
-    background-color: none;
 }
 
 .section-tab {
@@ -147,7 +145,7 @@ strong {
 
 .section-tab:hover {
     background-color: #fff;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 50px rgba(0, 0, 0, .2);
 }
 
 .section-tab:hover .section-tab__icon {
@@ -417,7 +415,7 @@ strong {
 }
 
 .menu-nav__span {
-    border-bottom: 0px solid #3853bc;
+    border-bottom: 0 solid #3853bc;
     padding-bottom: 8px;
 }
 
@@ -515,14 +513,19 @@ strong {
 }
 
 .section-request .section-tab:hover  {
-    background-color: none;
+    background-color: transparent;
     box-shadow: none;
+}
+
+.section-request .section-tab:hover .section-tab__description {
+    opacity: 1;
 }
 
 .section-request .section-tab__description {
     border-radius: 3px;
     padding: 10px;
     background-color: rgba(255, 255, 255, .1);
+    opacity: .8;
 }
 
 .section-request .section-tab:hover .section-tab__icon {
@@ -605,7 +608,7 @@ strong {
     height: 450px;
     opacity: .7;
     border-radius: 3px;
-    box-shadow: 0 0 1px #fff;
+    box-shadow: 0 0 2px #fff;
     background-color: transparent;
 }
 
@@ -763,7 +766,7 @@ strong {
 .section-tab__play-btn {
     position: absolute;
     top: 0;
-    right: 0px;
+    right: 0;
     height: 130px;
     font-size: 16px;
     font-weight: 300;
@@ -1047,7 +1050,7 @@ strong {
 
 @media (max-width: 1080px) {
     .menu-nav__span {
-        border-bottom: 0px solid #5bccd1;
+        border-bottom: 0 solid #5bccd1;
         padding-bottom: 8px;
         text-align: center;
     }

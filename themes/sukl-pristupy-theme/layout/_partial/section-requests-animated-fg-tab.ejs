@@ -8,8 +8,15 @@
         <p class="section__description white-color"><%- jsonName[count].description %></p>
         <div class="section-tabs">
             <% for (var i in jsonName[count].content){ %>
-            <a href="<%- jsonName[count].content[i].url1 %>" target="<%- jsonName[count].content[i].target %>">
             <div class="row-3 section-tab">
+                <div class="section-tab__foreground-content">
+                    <% if(jsonName[count].content[i].doubleUrl) { %>
+                    <% } else { %>
+                    <a href="<%- jsonName[count].content[i].url1 %>" target="<%- jsonName[count].content[i].target %>">
+                        <i class="fa <%- jsonName[count].content[i].pictogram1 %> fa-3x section-tab__foreground-icon" aria-hidden="true"></i>
+                    </a>
+                    <% } %>
+                </div>
                 <div class="section-tab__table">
                     <div class="section-tab__table-inner">
                         <i class="fa <%- jsonName[count].content[i].logo %> fa-3x section-tab__icon"
@@ -20,9 +27,7 @@
                     </div>
                 </div>
             </div>
-            </a>
             <% } %>
-
         </div>
     </div>
 </section>

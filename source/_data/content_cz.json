@@ -18,7 +18,7 @@
         "logo": "fa-plus-square",
         "tableActivated": true,
         "pictogram": "fa-file-text",
-        "url": "https://prodpsukl.iniba.eu/documents/lekarny.pdf",
+        "url": "$PORTAL_URL/documents/lekarny.pdf",
         "target": "_blank"
       },
       {
@@ -26,7 +26,7 @@
         "logo": "fa-h-square",
         "tableActivated": true,
         "pictogram": "fa-file-text",
-        "url": "https://prodpsukl.iniba.eu/documents/zdravotnicka_zarizeni.pdf",
+        "url": "$PORTAL_URL/documents/zdravotnicka_zarizeni.pdf",
         "target": "_blank"
       },
       {
@@ -34,7 +34,7 @@
         "logo": "fa-ambulance",
         "tableActivated": true,
         "pictogram": "fa-file-text",
-        "url": "https://prodpsukl.iniba.eu/documents/distributori.pdf",
+        "url": "$PORTAL_URL/documents/distributori.pdf",
         "target": "_blank"
       },
       {
@@ -60,7 +60,7 @@
         "description": "Formulář držitele registrace pro žádost o přístup k agendám SÚKL",
         "tableActivated": true,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Reg",
+        "url1": "$PORTAL_URL/portal/#/form_Reg",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -72,7 +72,7 @@
         "description": "Formulář pro žádost o přístup k CÚER",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Lekar",
+        "url1": "$PORTAL_URL/portal/#/form_Lekar",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -84,7 +84,7 @@
         "description": "Formulář pro žádost o přístup k CÚER",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_ZZ",
+        "url1": "$PORTAL_URL/portal/#/form_ZZ",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -96,7 +96,7 @@
         "description": "Formulář pro žádost o přístup k CÚER",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_LekarZZ",
+        "url1": "$PORTAL_URL/portal/#/form_LekarZZ",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -108,7 +108,7 @@
         "description": "Formulář pro žádost o přístup k CÚER",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Stomatolog",
+        "url1": "$PORTAL_URL/portal/#/form_Stomatolog",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -120,7 +120,7 @@
         "description": "Formulář pro žádost o přístup k CÚER",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_StomatologZZ",
+        "url1": "$PORTAL_URL/portal/#/form_StomatologZZ",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -132,7 +132,7 @@
         "description": "Formulář pro zadání nových přístupových údajů",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Nove_pristupove_udaje",
+        "url1": "$PORTAL_URL/portal/#/form_Nove_pristupove_udaje",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -144,7 +144,7 @@
         "description": "Formulář lékárny pro žádost o přístup k agendám SÚKL",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Lekarna",
+        "url1": "$PORTAL_URL/portal/#/form_Lekarna",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -156,7 +156,7 @@
         "description": "Žádost o zřízení účtu a přidělení přihlašovacích údajů lékárny pro připojení a komunikaci s CÚER, provozovaným SÚKL",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Lekarna_zapojeni_CUER",
+        "url1": "$PORTAL_URL/portal/#/form_Lekarna_zapojeni_CUER",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -168,7 +168,7 @@
         "description": "Formulář pro žádost o přístup k CÚER",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Lekarnik",
+        "url1": "$PORTAL_URL/portal/#/form_Lekarnik",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -180,7 +180,7 @@
         "description": "Formulář výrobce pro žádost o přístup k agendám SÚKL",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Vyrobce",
+        "url1": "$PORTAL_URL/portal/#/form_Vyrobce",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -192,7 +192,7 @@
         "description": "Formulář distributora pro žádost o přístup k agendám SÚKL",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Distributor",
+        "url1": "$PORTAL_URL/portal/#/form_Distributor",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -204,7 +204,7 @@
         "description": "Formulář nastavení specializace",
         "tableActivated": false,
         "doubleUrl": false,
-        "url1": "https://prodpsukl.iniba.eu/portal/#/form_Nastaveni_specializace",
+        "url1": "$PORTAL_URL/portal/#/form_Nastaveni_specializace",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -229,7 +229,7 @@
             "logo": "fa-list-alt",
             "linkActivated": true,
             "pictogram": "fa-external-link",
-            "url": "https://prodsukl.iniba.eu/dis13_forms.html",
+            "url": "$API_URL/dis13_forms.html",
             "target": "_blank"
           },
           {
@@ -237,7 +237,7 @@
             "logo": "fa-question-circle",
             "linkActivated": true,
             "pictogram": "fa-file-text-o",
-            "url": "https://prodpsukl.iniba.eu/documents/FAQ_k_DIS13.pdf",
+            "url": "$PORTAL_URL/documents/FAQ_k_DIS13.pdf",
             "target": "_blank"
           }
         ]
@@ -252,7 +252,7 @@
             "logo": "fa-list-alt",
             "linkActivated": true,
             "pictogram": "fa-external-link",
-            "url": "https://prodsukl.iniba.eu/reg13_forms.html",
+            "url": "$API_URL/reg13_forms.html",
             "target": "_blank"
           },
           {
@@ -260,7 +260,7 @@
             "logo": "fa-question-circle",
             "linkActivated": false,
             "pictogram": "fa-file-text-o",
-            "url": "https://prodpsukl.iniba.eu/documents/FAQ_k_REG13.pdf",
+            "url": "$PORTAL_URL/documents/FAQ_k_REG13.pdf",
             "target": "_blank"
           }
         ]
@@ -279,7 +279,7 @@
         "logo": "fa-sign-in",
         "description": "Přejít na link >",
         "tableActivated": true,
-        "url": "https://prodpsukl.iniba.eu/cert_request.html#/prihlasit",
+        "url": "$PORTAL_URL/cert_request.html#/prihlasit",
         "target": "_blank"
       },
       {
@@ -287,7 +287,7 @@
         "logo": "fa-file-pdf-o",
         "description": "Přejít na link >",
         "tableActivated": true,
-        "url": "https://prodpsukl.iniba.eu/documents/ei_navod.pdf",
+        "url": "$PORTAL_URL/documents/ei_navod.pdf",
         "target": "_blank"
       },
       {

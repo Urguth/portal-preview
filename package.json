@@ -2,12 +2,9 @@
   "name": "portal",
   "version": "0.0.1",
   "private": true,
-
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "scripts": {
-    "build": "tsc index.ts && node index.js",
+    "build": "tsc index.ts && node index.js"
   },
   "devDependencies": {
     "@types/ejs": "^2.3.33",

@@ -1,45 +1,36 @@
 <!doctype html>
 <!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="cz"> <![endif]-->
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="<%=language%>"> <![endif]-->
 <!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang="cz"> <![endif]-->
+<html class="no-js lt-ie9 lt-ie8" lang="<%=language%>"> <![endif]-->
 <!--[if IE 8]>
-<html class="no-js lt-ie9" lang="cz"> <![endif]-->
+<html class="no-js lt-ie9" lang="<%=language%>"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="cz"> <!--<![endif]-->
-
-<% var language = "en"; %>
-<% var json = null; %>
-<% if(language === "cz") { %>
-    <% json = site.data.content_cz; %>
-<% } else { %>
-    <% json = site.data.content_en; %>
-<% } %>
-
+<html class="no-js" lang="<%=language%>"> <!--<![endif]-->
 
 <!-- Head -->
-<%- partial('_partial/head', {jsonName: json}) %>
+<%- include('_partial/head', {jsonName: json}) %>
 
 <body>
 
 <!-- Loader -->
-<%- partial('_partial/loader') %>
+<%- include('_partial/loader') %>
 
 <!-- Menu -->
-<%- partial('_partial/menu', {jsonName: json, languageType: language}) %>
+<%- include('_partial/menu', {jsonName: json, languageType: language}) %>
 
 <div class="container" style="display: none">
     <% for (var i in json){ %>
     <% var path = '_partial/'+json[i].partialId %>
-    <%- partial(path, {count: i, jsonName: json}) %>
+    <%- include(path, {count: i, jsonName: json}) %>
     <% } %>
 </div>
 
 <!-- Youtube Player -->
-<%- partial('_partial/youtube-player') %>
+<%- include('_partial/youtube-player') %>
 
 <!-- External Javascript -->
-<%- partial('_partial/after-footer') %>
+<%- include('_partial/after-footer') %>
 
 </body>
 

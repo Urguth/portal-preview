@@ -16,6 +16,7 @@
       {
         "title": "Lékárny",
         "logo": "fa-plus-square",
+        "tableActivated": true,
         "pictogram": "fa-file-text",
         "url": "https://pristupy.sukl.cz/dokumenty/lekarny.pdf",
         "target": "_blank"
@@ -23,6 +24,7 @@
       {
         "title": "Zdravotnická zařízení",
         "logo": "fa-h-square",
+        "tableActivated": true,
         "pictogram": "fa-file-text",
         "url": "https://pristupy.sukl.cz/dokumenty/zdravotnicka_zarizeni.pdf",
         "target": "_blank"
@@ -30,23 +32,45 @@
       {
         "title": "Distributoři",
         "logo": "fa-ambulance",
+        "tableActivated": true,
         "pictogram": "fa-file-text",
         "url": "https://pristupy.sukl.cz/dokumenty/distributori.pdf",
+        "target": "_blank"
+      },
+      {
+        "title": "Držitel registrace",
+        "logo": "fa-user",
+        "tableActivated": false,
+        "pictogram": "",
+        "url": "",
         "target": "_blank"
       }
     ]
   },
   {
-    "title": "Žádosti",
-    "tag": "zadosti",
+    "title": "Žádosti o přístup",
+    "tag": "zadosti-o-pristup",
     "partialId": "section-requests",
     "sectionLogo": "request-logo.png",
     "description": "Žádosti o přístup k IT systémům SÚKL",
     "content": [
       {
+        "title": "Držitel registrace",
+        "logo": "fa-user",
+        "description": "Formulář držitele registrace pro žádost o přístup k agendám SÚKL",
+        "tableActivated": true,
+        "doubleUrl": false,
+        "url1": "https://testsukl.iniba.eu/portal/#/form_Reg",
+        "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
+        "target": "_blank"
+      },
+      {
         "title": "Lékař",
         "logo": "fa-heartbeat",
         "description": "Formulář pro žádost o přístup k CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekar",
         "url2": "#",
@@ -58,6 +82,7 @@
         "title": "Zdravotnické zařízení",
         "logo": "fa-h-square",
         "description": "Formulář pro žádost o přístup k CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_ZZ",
         "url2": "#",
@@ -69,6 +94,7 @@
         "title": "Lékař a provozovatel zdravotnického zařízení",
         "logo": "fa-stethoscope",
         "description": "Formulář pro žádost o přístup k CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_LekarZZ",
         "url2": "#",
@@ -80,6 +106,7 @@
         "title": "Stomatolog",
         "logo": "fa-user-md",
         "description": "Formulář pro žádost o přístup k CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Stomatolog",
         "url2": "#",
@@ -91,6 +118,7 @@
         "title": "Stomatolog a provozovatel zdravotnického zařízení",
         "logo": "fa-hospital-o",
         "description": "Formulář pro žádost o přístup k CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_StomatologZZ",
         "url2": "#",
@@ -102,6 +130,7 @@
         "title": "Nové přístupové údaje",
         "logo": "fa-user-plus",
         "description": "Formulář pro zadání nových přístupových údajů",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Nove_pristupove_udaje",
         "url2": "#",
@@ -113,6 +142,7 @@
         "title": "Lékárna",
         "logo": "fa-plus-square",
         "description": "Formulář lékárny pro žádost o přístup k agendám SÚKL",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekarna",
         "url2": "#",
@@ -124,6 +154,7 @@
         "title": "Lékárna a zapojení CÚER",
         "logo": "fa-plus-circle",
         "description": "Žádost o zřízení účtu a přidělení přihlašovacích údajů lékárny pro připojení a komunikaci s CÚER, provozovaným SÚKL",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekarna_zapojeni_CUER",
         "url2": "#",
@@ -135,6 +166,7 @@
         "title": "Lékárník",
         "logo": "fa-medkit",
         "description": "Formulář pro žádost o přístup k CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekarnik",
         "url2": "#",
@@ -146,6 +178,7 @@
         "title": "Výrobce",
         "logo": "fa-cogs",
         "description": "Formulář výrobce pro žádost o přístup k agendám SÚKL",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Vyrobce",
         "url2": "#",
@@ -157,19 +190,9 @@
         "title": "Distributor",
         "logo": "fa-ambulance",
         "description": "Formulář distributora pro žádost o přístup k agendám SÚKL",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Distributor",
-        "url2": "#",
-        "pictogram1": "fa-external-link",
-        "pictogram2": "fa-external-link",
-        "target": "_blank"
-      },
-      {
-        "title": "Držitel registrace",
-        "logo": "fa-plus-square",
-        "description": "Formulář držitele registrace pro žádost o přístup k agendám SÚKL",
-        "doubleUrl": false,
-        "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Reg",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -179,6 +202,7 @@
         "title": "Nastavení specializace",
         "logo": "fa-sliders",
         "description": "Formulář nastavení specializace",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Nastaveni_specializace",
         "url2": "#",
@@ -189,8 +213,8 @@
     ]
   },
   {
-    "title": "Hlášení",
-    "tag": "hlaseni",
+    "title": "Hlášení pro SÚKL",
+    "tag": "hlaseni-pro-sukl",
     "partialId": "section-reports",
     "sectionLogo": "report-logo.png",
     "description": "Hlášení dodávek distribuovaných humánních léčivých přípravků",
@@ -198,10 +222,12 @@
       {
         "logo": "fa-plus-square",
         "title": "DIS13",
+        "tableActivated": true,
         "tabContent": [
           {
             "title": "Formulář DIS13 v5",
             "logo": "fa-list-alt",
+            "linkActivated": true,
             "pictogram": "fa-external-link",
             "url": "https://api.sukl.cz/dis13_forms.html",
             "target": "_blank"
@@ -209,6 +235,7 @@
           {
             "title": "Často kladené otázky a odpovědi k DIS13 v5",
             "logo": "fa-question-circle",
+            "linkActivated": true,
             "pictogram": "fa-file-text-o",
             "url": "https://pristupy.sukl.cz/dokumenty/FAQ_k_DIS13.pdf",
             "target": "_blank"
@@ -218,10 +245,12 @@
       {
         "logo": "fa-plus-square",
         "title": "REG13",
+        "tableActivated": true,
         "tabContent": [
           {
             "title": "Formulář REG13",
             "logo": "fa-list-alt",
+            "linkActivated": true,
             "pictogram": "fa-external-link",
             "url": "#",
             "target": "_blank"
@@ -229,6 +258,7 @@
           {
             "title": "Často kladené otázky a odpovědi k REG13",
             "logo": "fa-question-circle",
+            "linkActivated": false,
             "pictogram": "fa-file-text-o",
             "url": "#",
             "target": "_blank"
@@ -248,6 +278,7 @@
         "title": "Portál externích identit [momentálně pouze generování certifikátu]",
         "logo": "fa-sign-in",
         "description": "Přejít na link >",
+        "tableActivated": true,
         "url": "https://pristupy.sukl.cz/cert_request.html#/prihlasit",
         "target": "_blank"
       },
@@ -255,6 +286,7 @@
         "title": "Návod v pdf",
         "logo": "fa-file-pdf-o",
         "description": "Přejít na link >",
+        "tableActivated": true,
         "url": "https://pristupy.sukl.cz/dokumenty/ei_navod.pdf",
         "target": "_blank"
       },
@@ -262,6 +294,7 @@
         "title": "Návod na aktivaci účtu SÚKL a generování certifikátu pro přístup do CÚR",
         "logo": "fa-list-alt",
         "description": "Přejít na link >",
+        "tableActivated": true,
         "url": "https://www.epreskripce.cz/navod-na-aktivaci-uctu-sukl-vygenerovani-certifikatu-pro-pristup-do-centralniho-uloziste-receptu",
         "target": "_blank"
       }
@@ -302,10 +335,21 @@
       },
       {
         "title": "Naše další stránky",
-        "description1": "- Informační portál pro veřejnost",
-        "description2": "- Padělky léčiv a nelegální přípravky",
-        "description3": "- Zabezpečený portál pro lékárny",
-        "description4": "- Státní ústav pro kontrolu léčiv"
+        "description1": "- informace o eReceptu a žádostech eReceptu",
+        "linkName1": "epreskripce.sukl.cz",
+        "link1": "http://www.epreskripce.sukl.cz/",
+
+        "description2": "- Statní agentura pro konopí pro léčebné účinky",
+        "linkName2": "sakl.cz",
+        "link2": "http://www.sakl.cz/",
+
+        "description3": "- změna přístupových údajů nové lékárny",
+        "linkName3": "lekarny.sukl.cz",
+        "link3": "http://lekarny.sukl.cz/",
+
+        "description4": "- změna přístupových údajů zdravotnického zařízení a zdravotnických pracovníků",
+        "linkName4": "identity.sukl.cz",
+        "link4": "http://identity.sukl.cz/"
       }
     ]
   }

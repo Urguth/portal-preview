@@ -405,18 +405,18 @@ strong {
 }
 
 .menu-nav__link {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 80px;
     font-weight: 500;
     float: left;
     color: inherit;
     display: inline;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .menu-nav__span {
     border-bottom: 0 solid #3853bc;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
 }
 
 .menu-nav__lang-btn {
@@ -452,7 +452,7 @@ strong {
     display: table;
     position: relative;
     width: 100%;
-    height: 620px;
+    height: 480px;
     background-image: url("../img/welcome-img.png");
 }
 
@@ -476,6 +476,12 @@ strong {
 
 .section-information .section-tab {
     border-radius: 3px;
+}
+
+.section-information .section-tab--disable {
+    pointer-events:none;
+    cursor: auto;
+    background-color: #ccc;
 }
 
 
@@ -534,6 +540,12 @@ strong {
 
 .section-request .section-tab:hover .section-tab__title {
     color: #fff;
+}
+
+.section-request .section-tab--disable {
+    pointer-events:none;
+    opacity: .3;
+    cursor: auto;
 }
 
 /*******
@@ -605,18 +617,20 @@ strong {
     background-color: transparent;
 }
 
-.section-reports .disable-tab {
+.section-reports .section-link--disable {
     pointer-events:none;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
+    color: #555555;
 }
 
-    /*******
-        EXTERNAL IDENTITY SECTION
-     */
+.section-reports .section-link--disable:hover {
+    color: #555555;
+}
+
+
+
+/*******
+    EXTERNAL IDENTITY SECTION
+*/
 
 .section-external-identity {
     background-image: url("../img/external-identity-img.svg");
@@ -649,7 +663,6 @@ strong {
 }
 
 .section-external-identity .section-tab:hover  {
-    box-shadow: 0 0 1px #fff;
     opacity: 1;
 }
 
@@ -682,6 +695,11 @@ strong {
     background-color: #3853bc;
 }
 
+.section-external-identity .section-tab--disable {
+    pointer-events:none;
+    cursor: auto;
+    opacity: .3;
+}
 
 /********
     VIDEO SECTION
@@ -864,11 +882,17 @@ strong {
     width: 50%;
     height: 100%;
     overflow: hidden;
-    -webkit-filter: grayscale(100%);
+    /*-webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
-    filter: grayscale(100%);
+    filter: grayscale(100%);*/
+    cursor: pointer;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-image: url("../img/sukl-map-img.png");
 }
 
 .section-contact .section-table {
@@ -1066,7 +1090,7 @@ strong {
     BREAKPOINTS
  */
 
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
     .menu-nav__span {
         border-bottom: 0 solid #5bccd1;
         padding-bottom: 8px;

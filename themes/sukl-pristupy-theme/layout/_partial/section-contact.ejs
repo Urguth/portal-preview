@@ -1,6 +1,8 @@
 <section id="<%- jsonName[count].tag %>" class="section section-contact">
     <!-- <div class="line-separate"></div> -->
-    <div id="map"></div>
+    <a href="https://www.google.cz/maps/place/%C5%A0rob%C3%A1rova+2551%2F48,+100+00+Praha+10-Vinohrady/data=!4m2!3m1!1s0x470b93702663acd3:0xd80e85620859e434?sa=X&ved=0ahUKEwiBvIPS4OjXAhWM16QKHbORAAAQ8gEIMzAB" target="_blank">
+        <div id="map"></div>
+    </a>
     <div class="section-table">
         <div class="section-table__title">
             <h2 class="section__title white-color"><%- jsonName[count].title %></h2>
@@ -23,10 +25,10 @@
         </div>
         <div class="section-table__b">
             <h3 class="section-table__b-title"><%- jsonName[count].content[1].title %></h3>
-            <p class="section-table__b-paragraph"><a href="http://www.olecich.cz/" target="_blank"><strong>olecich.cz</strong></a><br><i><%- jsonName[count].content[1].description1 %></i></p>
-            <p class="section-table__b-paragraph"><a href="http://www.nebezpecneleky.cz/" target="_blank"><strong>nebezpecneleky.cz</strong></a><br><i><%- jsonName[count].content[1].description2 %></i></p>
-            <p class="section-table__b-paragraph"><a href="https://lekarny.sukl.cz/" target="_blank"><strong>lekarny.sukl.cz</strong></a><br><i><%- jsonName[count].content[1].description3 %></i></p>
-            <p class="section-table__b-paragraph"><a href="http://www.sukl.cz/" target="_blank"><strong>sukl.cz</strong></a><br><i><%- jsonName[count].content[1].description4 %></i></p>
+            <p class="section-table__b-paragraph"><a href="<%- jsonName[count].content[1].link1 %>" target="_blank"><strong><%- jsonName[count].content[1].linkName1 %></strong></a><br><i><%- jsonName[count].content[1].description1 %></i></p>
+            <p class="section-table__b-paragraph"><a href="<%- jsonName[count].content[1].link2 %>" target="_blank"><strong><%- jsonName[count].content[1].linkName2 %></strong></a><br><i><%- jsonName[count].content[1].description2 %></i></p>
+            <p class="section-table__b-paragraph"><a href="<%- jsonName[count].content[1].link3 %>" target="_blank"><strong><%- jsonName[count].content[1].linkName3 %></strong></a><br><i><%- jsonName[count].content[1].description3 %></i></p>
+            <p class="section-table__b-paragraph"><a href="<%- jsonName[count].content[1].link4 %>" target="_blank"><strong><%- jsonName[count].content[1].linkName4 %></strong></a><br><i><%- jsonName[count].content[1].description4 %></i></p>
         </div>
     </div>
 </section>

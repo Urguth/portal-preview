@@ -1,10 +1,10 @@
 [
   {
-    "siteTitle": "SÚKL Approaches",
+    "siteTitle": "SÚKL Accesses",
     "tag": "home",
     "partialId": "section-welcome",
     "backgroundImg": "welcome-img.png",
-    "logoName": "APPROACHES"
+    "logoName": "ACCESSES"
   },
   {
     "title": "Informations",
@@ -16,6 +16,7 @@
       {
         "title": "Pharmacies",
         "logo": "fa-plus-square",
+        "tableActivated": true,
         "pictogram": "fa-file-text",
         "url": "https://pristupy.sukl.cz/dokumenty/lekarny.pdf",
         "target": "_blank"
@@ -23,6 +24,7 @@
       {
         "title": "Medical facilities",
         "logo": "fa-h-square",
+        "tableActivated": true,
         "pictogram": "fa-file-text",
         "url": "https://pristupy.sukl.cz/dokumenty/zdravotnicka_zarizeni.pdf",
         "target": "_blank"
@@ -30,23 +32,45 @@
       {
         "title": "Distributors",
         "logo": "fa-ambulance",
+        "tableActivated": true,
         "pictogram": "fa-file-text",
         "url": "https://pristupy.sukl.cz/dokumenty/distributori_aj.pdf",
+        "target": "_blank"
+      },
+      {
+        "title": "Registration holder",
+        "logo": "fa-user",
+        "tableActivated": false,
+        "pictogram": "",
+        "url": "",
         "target": "_blank"
       }
     ]
   },
   {
-    "title": "Requests",
-    "tag": "requests",
+    "title": "Requests for access",
+    "tag": "requests-for-access",
     "partialId": "section-requests",
     "sectionLogo": "request-logo.png",
     "description": "Requests for access to IT systems of SÚKL",
     "content": [
       {
+        "title": "Registration Holder",
+        "logo": "fa-user",
+        "description": "Registration holder form for requesting access to SÚKL agendas",
+        "tableActivated": true,
+        "doubleUrl": false,
+        "url1": "https://testsukl.iniba.eu/portal/#/form_Reg",
+        "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
+        "target": "_blank"
+      },
+      {
         "title": "Doctor",
         "logo": "fa-heartbeat",
         "description": "Application form for access to CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekar",
         "url2": "#",
@@ -58,6 +82,7 @@
         "title": "Medical facility",
         "logo": "fa-h-square",
         "description": "Application form for access to CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_ZZ",
         "url2": "#",
@@ -69,6 +94,7 @@
         "title": "Doctor and operator of the medical facility",
         "logo": "fa-stethoscope",
         "description": "Application form for access to CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_LekarZZ",
         "url2": "#",
@@ -80,6 +106,7 @@
         "title": "Dentist",
         "logo": "fa-user-md",
         "description": "Application form for access to CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Stomatolog",
         "url2": "#",
@@ -91,6 +118,7 @@
         "title": "Dentist and operator of the medical facility",
         "logo": "fa-hospital-o",
         "description": "Application form for access to CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_StomatologZZ",
         "url2": "#",
@@ -102,6 +130,7 @@
         "title": "New access data",
         "logo": "fa-user-plus",
         "description": "A form for entering new access data",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Nove_pristupove_udaje",
         "url2": "#",
@@ -113,6 +142,7 @@
         "title": "Pharmacy",
         "logo": "fa-plus-square",
         "description": "Pharmacy form for requesting access to SÚKL agendas",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekarna",
         "url2": "#",
@@ -124,6 +154,7 @@
         "title": "Pharmacy and involvement of CÚER",
         "logo": "fa-plus-circle",
         "description": "Request for account creation and allocation of pharmacy login data for connection and communication with CÚER operated by SÚKL",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekarna_zapojeni_CUER",
         "url2": "#",
@@ -135,6 +166,7 @@
         "title": "Pharmacist",
         "logo": "fa-medkit",
         "description": "Application form for access to CÚER",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Lekarnik",
         "url2": "#",
@@ -146,6 +178,7 @@
         "title": "Manufacturer",
         "logo": "fa-cogs",
         "description": "Manufacturer form for requesting access to SÚKL agendas",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Vyrobce",
         "url2": "#",
@@ -157,19 +190,9 @@
         "title": "Distributor",
         "logo": "fa-ambulance",
         "description": "Distributor form for requesting access to SÚKL agendas",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Distributor",
-        "url2": "#",
-        "pictogram1": "fa-external-link",
-        "pictogram2": "fa-external-link",
-        "target": "_blank"
-      },
-      {
-        "title": "Registration Holder",
-        "logo": "fa-plus-square",
-        "description": "Registration holder form for requesting access to SÚKL agendas",
-        "doubleUrl": false,
-        "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Reg",
         "url2": "#",
         "pictogram1": "fa-external-link",
         "pictogram2": "fa-external-link",
@@ -179,6 +202,7 @@
         "title": "Setting up specialization",
         "logo": "fa-sliders",
         "description": "Form for setting up specialization",
+        "tableActivated": false,
         "doubleUrl": false,
         "url1": "https://testapi.sukl.cz/formulare/dist/#/form_Nastaveni_specializace",
         "url2": "#",
@@ -189,8 +213,8 @@
     ]
   },
   {
-    "title": "Reports",
-    "tag": "reports",
+    "title": "Reports for SÚKL",
+    "tag": "reports-for-sukl",
     "partialId": "section-reports",
     "sectionLogo": "report-logo.png",
     "description": "Delivery reports of distributed human medicinal products",
@@ -198,10 +222,12 @@
       {
         "logo": "fa-plus-square",
         "title": "DIS13",
+        "tableActivated": true,
         "tabContent": [
           {
             "title": "DIS13 v5 form",
             "logo": "fa-list-alt",
+            "linkActivated": true,
             "pictogram": "fa-external-link",
             "url": "https://api.sukl.cz/dis13_forms.html",
             "target": "_blank"
@@ -209,6 +235,7 @@
           {
             "title": "Frequently asked questions and answers to DIS13 v5",
             "logo": "fa-question-circle",
+            "linkActivated": true,
             "pictogram": "fa-file-text-o",
             "url": "https://pristupy.sukl.cz/dokumenty/FAQ_k_DIS13.pdf",
             "target": "_blank"
@@ -218,10 +245,12 @@
       {
         "logo": "fa-plus-square",
         "title": "REG13",
+        "tableActivated": true,
         "tabContent": [
           {
             "title": "REG13 form",
             "logo": "fa-list-alt",
+            "linkActivated": true,
             "pictogram": "fa-external-link",
             "url": "#",
             "target": "_blank"
@@ -229,6 +258,7 @@
           {
             "title": "Frequently asked questions and answers to REG13",
             "logo": "fa-question-circle",
+            "linkActivated": false,
             "pictogram": "fa-file-text-o",
             "url": "#",
             "target": "_blank"
@@ -248,6 +278,7 @@
         "title": "External Identity [currently only certificate generation]",
         "logo": "fa-sign-in",
         "description": "Go to link >",
+        "tableActivated": true,
         "url": "https://pristupy.sukl.cz/cert_request.html#/prihlasit",
         "target": "_blank"
       },
@@ -255,6 +286,7 @@
         "title": "Instructions in pdf",
         "logo": "fa-file-pdf-o",
         "description": "Go to link >",
+        "tableActivated": true,
         "url": "https://pristupy.sukl.cz/dokumenty/ei_navod_aj.pdf",
         "target": "_blank"
       },
@@ -262,6 +294,7 @@
         "title": "Instructions for activating the SÚKL account and generating a certificate for access to CÚR",
         "logo": "fa-list-alt",
         "description": "Go to link >",
+        "tableActivated": true,
         "url": "https://www.epreskripce.cz/navod-na-aktivaci-uctu-sukl-vygenerovani-certifikatu-pro-pristup-do-centralniho-uloziste-receptu",
         "target": "_blank"
       }
@@ -286,6 +319,18 @@
         "description": "Creating a new distribution statement",
         "type": "(Instructional video)",
         "videoId": "fAtYv5dER2g"
+      },
+      {
+        "title": "REG13",
+        "description": "Creating new report",
+        "type": "(Instructional video)",
+        "videoId": "T63BM-eHkz0"
+      },
+      {
+        "title": "REG13",
+        "description": "creating new statement about non-distribution",
+        "type": "(Instructional video)",
+        "videoId": "1ST77WF2IFY"
       }
     ]
   },
@@ -302,10 +347,21 @@
       },
       {
         "title": "Our other sites",
-        "description1": "- Information website for the public",
-        "description2": "- Drug counterfeiting and illicit preparations",
-        "description3": "- Secured Pharmacy Website",
-        "description4": "- State Institute for Drug Control"
+        "description1": "- informations about eRecept and eRecept's requests",
+        "linkName1": "epreskripce.sukl.cz",
+        "link1": "http://www.epreskripce.sukl.cz/",
+
+        "description2": "- State Agency for hemp for therapeutic effects",
+        "linkName2": "sakl.cz",
+        "link2": "http://www.sakl.cz/",
+
+        "description3": "- change of access data for new pharmacy",
+        "linkName3": "lekarny.sukl.cz",
+        "link3": "http://lekarny.sukl.cz/",
+
+        "description4": "- change of access data for medical facilities a medical workers",
+        "linkName4": "identity.sukl.cz",
+        "link4": "http://identity.sukl.cz/"
       }
     ]
   }

@@ -11,19 +11,23 @@
         <p class="section__description"><%- jsonName[count].description %></p>
         <div class="section-tabs">
             <% for (var i in jsonName[count].content){ %>
-                <div class="row-3 section-tab">
-                    <a href="<%- jsonName[count].content[i].url %>" target="<%- jsonName[count].content[i].target %>">
-                        <div class="section-tab__table">
-                            <div class="section-tab__table-inner">
-                                <i class="fa <%- jsonName[count].content[i].logo %> fa-3x section-tab__icon"
-                                   aria-hidden="true"></i>
-                                <i class="fa <%- jsonName[count].content[i].pictogram %> section-tab__icon section-tab__icon-type"
-                                   aria-hidden="true"></i>
-                                <div class="section-tab__title"><%- jsonName[count].content[i].title %></div>
-                            </div>
+            <% var disabled = "" %>
+            <% if(!jsonName[count].content[i].tableActivated) { %>
+            <% disabled = "section-tab--disable" %>
+            <% } %>
+            <div class="row-3 section-tab <%- disabled %>">
+                <a href="<%- jsonName[count].content[i].url %>" target="<%- jsonName[count].content[i].target %>">
+                    <div class="section-tab__table">
+                        <div class="section-tab__table-inner">
+                            <i class="fa <%- jsonName[count].content[i].logo %> fa-3x section-tab__icon"
+                               aria-hidden="true"></i>
+                            <i class="fa <%- jsonName[count].content[i].pictogram %> section-tab__icon section-tab__icon-type"
+                               aria-hidden="true"></i>
+                            <div class="section-tab__title"><%- jsonName[count].content[i].title %></div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
+            </div>
             <% } %>
         </div>
     </div>

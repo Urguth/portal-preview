@@ -7,7 +7,7 @@
 
   },
   "scripts": {
-    "build": "tsc index.ts && node index.js",
+    "build": "tsc index.ts && node index.js"
   },
   "devDependencies": {
     "@types/ejs": "^2.3.33",

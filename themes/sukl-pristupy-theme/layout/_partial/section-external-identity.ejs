@@ -8,7 +8,11 @@
         <p class="section__description white-color"><%- jsonName[count].description %></p>
         <div class="section-tabs">
             <% for (var i in jsonName[count].content){ %>
-            <div class="row-3 section-tab">
+            <% var disabled = "" %>
+            <% if(!jsonName[count].content[i].tableActivated) { %>
+            <% disabled = "section-tab--disable" %>
+            <% } %>
+            <div class="row-3 section-tab <%- disabled %>">
                 <a href="<%- jsonName[count].content[i].url %>" target="<%- jsonName[count].content[i].target %>">
                     <div class="section-tab__table">
                         <div class="section-tab__table-inner">

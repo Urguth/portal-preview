@@ -1,8 +1,8 @@
 function Main() {
-    this.videoArray = [['xobCAc57Y4w', 'video-1'], ['fAtYv5dER2g', 'video-2']];
     this.menuArray = [];
     this.playerDefW = 1920;
     this.playerDefH = 1080;
+    this.maxWidthExpandedMenu = 1280;
     this.closeBtn = this.getCS('vp-cancel-btn');
     this.vpContainer = this.getCS('vp-container');
     this.vp = this.getCS('vp');
@@ -38,7 +38,7 @@ Main.prototype = {
             }
             self.getCS('menu-nav__btn').style.color = "#fff";
             self.getCS('menu-nav__btn').style.top = "9px";
-            self.getCS('section-welcome__foreground').style.opacity = "1";
+            //self.getCS('section-welcome__foreground').style.opacity = "1";
         } else {
             self.linkHoverColor = "#4a5ec4"
             self.getCS('menu').style.backgroundColor = 'rgba(255,255,255, 0)';
@@ -60,15 +60,15 @@ Main.prototype = {
             self.getCS('menu-nav__btn').style.color = "#2b46af";
             self.getCS('menu-nav__btn').style.top = "15px";
             self.getCS('menu-nav__logo-symbol').style.fill = "#003278";
-            self.getCS('section-welcome__foreground').style.opacity = "1";
+            //self.getCS('section-welcome__foreground').style.opacity = "1";
         }
     },
     onResize: function (self, e) {
         self.w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         self.h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-        self.w < 1080 ? [self.hideMenu = true, self.getCS('menu-nav__links').style.display = 'none'] : [self.hideMenu = false, self.getCS('menu-nav__links').style.display = 'block'];
+        self.w < self.maxWidthExpandedMenu ? [self.hideMenu = true, self.getCS('menu-nav__links').style.display = 'none'] : [self.hideMenu = false, self.getCS('menu-nav__links').style.display = 'block'];
         self.setPlayerSize(self.playerDefW, self.playerDefH, Math.round((self.w) / 1.2), Math.round((self.h) / 1.2));
-        if (self.resiziMap) self.centerMap = self.map.getCenter(), google.maps.event.trigger(self.map, "resize"), self.map.setCenter(self.centerMap);
+        //if (self.resiziMap) self.centerMap = self.map.getCenter(), google.maps.event.trigger(self.map, "resize"), self.map.setCenter(self.centerMap);
         self.scrolling(self);
     },
     videoBtnOnClick: function (self, e) {
@@ -107,7 +107,7 @@ Main.prototype = {
         self.btnCollapsedVisible ? [self.btnCollapsedVisible = false, self.getCS('menu-nav__links').style.display = 'none'] : [self.btnCollapsedVisible = true, self.getCS('menu-nav__links').style.display = 'block'];
     },
     initialize: function (self) {
-        var myLatlng = new google.maps.LatLng(50.07593689999999, 14.4729323);
+        /*var myLatlng = new google.maps.LatLng(50.07593689999999, 14.4729323);
         var mapOptions = {
             zoom: 15,
             center: myLatlng,
@@ -171,7 +171,7 @@ Main.prototype = {
             infowindow.open(self.map, marker);
         });
 
-        self.resiziMap = true;
+        self.resiziMap = true;*/
 
         setTimeout(function(){
             self.getCS('sk-cube-grid').style.display = 'none';
@@ -182,7 +182,7 @@ Main.prototype = {
                 console.log(self.windowUrl.substring(self.windowUrl.indexOf('#')+1, self.windowUrl.length))
                 document.getElementById(self.windowUrl.substring(self.windowUrl.indexOf('#')+1, self.windowUrl.length)).scrollIntoView();
             }
-        }, 1000);
+        }, 100);
     },
     init: function (self) {
         window.addEventListener('resize', self.onResize.bind(undefined, self));

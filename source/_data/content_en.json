@@ -283,11 +283,19 @@
         "target": "_blank"
       },
       {
-        "title": "Instructions in pdf",
+        "title": "Instructions for pharmacies, distributors and healthcare facilities",
         "logo": "fa-file-pdf-o",
         "description": "Go to link >",
         "tableActivated": true,
         "url": "$PORTAL_URL/documents/ei_navod_aj.pdf",
+        "target": "_blank"
+      },
+      {
+        "title": "Instructions for the holder",
+        "logo": "fa-file-pdf-o",
+        "description": "Go to link >",
+        "tableActivated": false,
+        "url": "$PORTAL_URL/documents/ei_navod_reg.pdf",
         "target": "_blank"
       },
       {
@@ -322,15 +330,15 @@
       },
       {
         "title": "REG13",
-        "description": "Creating new report",
+        "description": "Creating a new report",
         "type": "(Instructional video)",
-        "videoId": "T63BM-eHkz0"
+        "videoId": "-cFPq7ZST4g"
       },
       {
         "title": "REG13",
-        "description": "creating new statement about non-distribution",
+        "description": "Creating a new declaration of non-execution of distribution",
         "type": "(Instructional video)",
-        "videoId": "1ST77WF2IFY"
+        "videoId": "t7La99RFxZQ"
       }
     ]
   },

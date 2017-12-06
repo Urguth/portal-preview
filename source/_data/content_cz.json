@@ -283,11 +283,19 @@
         "target": "_blank"
       },
       {
-        "title": "Návod v pdf",
+        "title": "Návod pro lékárny, distributory a zdravotnická zařízení",
         "logo": "fa-file-pdf-o",
         "description": "Přejít na link >",
         "tableActivated": true,
         "url": "$PORTAL_URL/documents/ei_navod.pdf",
+        "target": "_blank"
+      },
+      {
+        "title": "Návod pro držitele",
+        "logo": "fa-file-pdf-o",
+        "description": "Go to link >",
+        "tableActivated": false,
+        "url": "$PORTAL_URL/documents/ei_navod_reg.pdf",
         "target": "_blank"
       },
       {
@@ -319,6 +327,18 @@
         "description": "Založení nového prohlášení o nedistribuci",
         "type": "(Instruktážní video)",
         "videoId": "fAtYv5dER2g"
+      },
+      {
+        "title": "REG13",
+        "description": "Založení nového hlášení",
+        "type": "(Instruktážní video)",
+        "videoId": "-cFPq7ZST4g"
+      },
+      {
+        "title": "REG13",
+        "description": "Založení nového prohlášení o nedistribuci",
+        "type": "(Instruktážní video)",
+        "videoId": "t7La99RFxZQ"
       }
     ]
   },

@@ -55,7 +55,7 @@
     "description": "Requests for access to IT systems of SÚKL",
     "content": [
       {
-        "title": "Registration Holder",
+        "title": "MAH - Marketing Authorisation Holder",
         "logo": "fa-user",
         "description": "Registration holder form for requesting access to SÚKL agendas",
         "tableActivated": true,

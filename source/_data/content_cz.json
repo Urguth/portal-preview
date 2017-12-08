@@ -55,7 +55,7 @@
     "description": "Žádosti o přístup k IT systémům SÚKL",
     "content": [
       {
-        "title": "Držitel registrace",
+        "title": "Držitel rozhodnutí o registraci léčivých přípravků",
         "logo": "fa-user",
         "description": "Formulář držitele registrace pro žádost o přístup k agendám SÚKL",
         "tableActivated": true,

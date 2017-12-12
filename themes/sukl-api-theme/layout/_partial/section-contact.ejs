@@ -1,0 +1,35 @@
+<section id="<%- jsonName[count].tag %>" class="section section-contact">
+    <!-- <div class="line-separate"></div> -->
+    <a href="https://www.google.cz/maps/place/%C5%A0rob%C3%A1rova+2551%2F48,+100+00+Praha+10-Vinohrady/data=!4m2!3m1!1s0x470b93702663acd3:0xd80e85620859e434?sa=X&ved=0ahUKEwiBvIPS4OjXAhWM16QKHbORAAAQ8gEIMzAB" target="_blank">
+        <div id="map"></div>
+    </a>
+    <div class="section-table">
+        <div class="section-table__title">
+            <h2 class="section__title white-color"><%- jsonName[count].title %></h2>
+            <div class="section__line-container">
+                <div class="section__line-1"></div>
+                <div class="section__line-2"></div>
+            </div>
+        </div>
+        <div class="section-table__a">
+            <h3 class="section-table__a-title"><%- jsonName[count].content[0].title %></h3>
+            <address class="section-table__a-adress">
+                <p class="section-table__a-paragraph"><strong><%- jsonName[count].content[0].description %></strong></p>
+                <p class="section-table__a-paragraph">Šrobárova 48</p>
+                <p class="section-table__a-paragraph">100 41 Praha 10</p>
+                <p class="section-table__a-paragraph"><strong>Tel.:</strong> <a href="tel://+420 272 185 111"></a>+420 272 185 111</p>
+                <p class="section-table__a-paragraph"><strong>Fax:</strong> <a href="fax://+420 271 732 377"></a>+420 271 732 377</p>
+                <p class="section-table__a-paragraph"><strong>E-mail:</strong> <a href="mailto:posta@sukl.cz">posta@sukl.cz</a></p>
+                <p class="section-table__a-paragraph"><strong><%- jsonName[count].content[0].txtId %></strong> qwfai2m</p>
+            </address>
+        </div>
+        <div class="section-table__b">
+            <h3 class="section-table__b-title"><%- jsonName[count].content[1].title %></h3>
+            <p class="section-table__b-paragraph"><a href="<%- jsonName[count].content[1].link1 %>" target="_blank"><strong><%- jsonName[count].content[1].linkName1 %></strong></a><br><i><%- jsonName[count].content[1].description1 %></i></p>
+            <p class="section-table__b-paragraph"><a href="<%- jsonName[count].content[1].link2 %>" target="_blank"><strong><%- jsonName[count].content[1].linkName2 %></strong></a><br><i><%- jsonName[count].content[1].description2 %></i></p>
+            <p class="section-table__b-paragraph"><a href="<%- jsonName[count].content[1].link3 %>" target="_blank"><strong><%- jsonName[count].content[1].linkName3 %></strong></a><br><i><%- jsonName[count].content[1].description3 %></i></p>
+            <p class="section-table__b-paragraph"><a href="<%- jsonName[count].content[1].link4 %>" target="_blank"><strong><%- jsonName[count].content[1].linkName4 %></strong></a><br><i><%- jsonName[count].content[1].description4 %></i></p>
+        </div>
+    </div>
+</section>
+<p class="section-table__c"><%- jsonName[count].footerText %></p>

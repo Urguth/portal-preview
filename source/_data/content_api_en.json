@@ -1,0 +1,163 @@
+[
+  {
+    "siteTitle": "SÚKL Api",
+    "tag": "home",
+    "partialId": "section-welcome",
+    "backgroundImg": "welcome-img.png",
+    "logoName": "API"
+  },
+  {
+    "title": "Informations",
+    "tag": "Informations",
+    "partialId": "section-information",
+    "sectionLogo": "info-logo.png",
+    "description": "Information for SW suppliers accessing to IT systems of SÚKL",
+    "content": [
+      {
+        "title": "SW Supplier",
+        "logo": "fa-plus-square",
+        "tableActivated": false,
+        "pictogram": "",
+        "url": "$PORTAL_URL/documents/lekarny.pdf",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "title": "Requests for access",
+    "tag": "requests-for-access",
+    "partialId": "section-requests",
+    "sectionLogo": "request-logo.png",
+    "description": "Requests for access to IT systems of SÚKL",
+    "content": [
+      {
+        "title": "SW Supplier",
+        "logo": "fa-user",
+        "description": "Request access for SW company to IT systems of SÚKL",
+        "tableActivated": false,
+        "doubleUrl": false,
+        "url1": "$PORTAL_URL/portal/#/form_Reg",
+        "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "title": "Testing reports for SÚKL",
+    "tag": "testing-reports-for-sukl",
+    "partialId": "section-reports",
+    "sectionLogo": "test-reports-logo.png",
+    "description": "............",
+    "content": [
+      {
+        "logo": "fa-plus-square",
+        "title": "DIS13",
+        "description": "Hlášení dodávek distribuovaných humánních léčivých přípravků - DIS-13 verze 5, API v5",
+        "tableActivated": true,
+        "tableEffectActivated": true,
+        "tabContent": [
+          {
+            "title": "Link for Swagger1",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/docs/?url=/dis13_en.swagger.json",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "logo": "fa-plus-square",
+        "title": "REG13",
+        "description": "Hlášení dodávek registrovaných humánních léčivých přípravků od držitelů registračních rozhodnutí do ČR - REG-13 verze 2, API v2",
+        "tableActivated": true,
+        "tableEffectActivated": true,
+        "tabContent": [
+          {
+            "title": "Link for Swagger1",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/docs/?url=/reg13_en.swagger.json",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "logo": "fa-plus-square",
+        "title": "HZ",
+        "description": "Hlášení závad",
+        "tableActivated": true,
+        "tableEffectActivated": true,
+        "tabContent": [
+
+        ]
+      },
+      {
+        "logo": "fa-plus-square",
+        "title": "CIS",
+        "description": "Číselníky SÚKL API",
+        "tableActivated": true,
+        "tableEffectActivated": true,
+        "tabContent": [
+
+        ]
+      },
+      {
+        "logo": "fa-plus-square",
+        "title": "LEK13",
+        "description": "Hlášení o vydaných léčivých přípravcích - LEK-13 verze 6, API v3",
+        "tableActivated": false,
+        "tableEffectActivated": false,
+        "tabContent": [
+
+        ]
+      },
+      {
+        "logo": "",
+        "title": "",
+        "description": "",
+        "tableActivated": true,
+        "tableEffectActivated": false,
+        "tabContent": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Contact",
+    "tag": "contact",
+    "partialId": "section-contact",
+    "sectionLogo": "kontakt-logo.png",
+    "footerText": "Dotazy a připomínky zasílejte na kontaktní centrum <a href=\"https://kc.sukl.cz\" target=\"_blank\"><strong>https://kc.sukl.cz</strong></a> do patřičných sekcí.",
+    "content": [
+      {
+        "title": "Where to find us?",
+        "description": "State Institute for Drug Control",
+        "txtId": "SÚKL - Data Box Identifier"
+      },
+      {
+        "title": "Our other sites",
+        "description1": "- informations about eRecept and eRecept's requests",
+        "linkName1": "epreskripce.sukl.cz",
+        "link1": "http://www.epreskripce.sukl.cz/",
+
+        "description2": "- State Agency for hemp for therapeutic effects",
+        "linkName2": "sakl.cz",
+        "link2": "http://www.sakl.cz/",
+
+        "description3": "- change of access data for new pharmacy",
+        "linkName3": "lekarny.sukl.cz",
+        "link3": "http://lekarny.sukl.cz/",
+
+        "description4": "- change of access data for medical facilities a medical workers",
+        "linkName4": "identity.sukl.cz",
+        "link4": "http://identity.sukl.cz/"
+      }
+    ]
+  }
+]
+

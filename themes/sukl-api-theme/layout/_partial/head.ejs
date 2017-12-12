@@ -1,0 +1,37 @@
+<%
+function css() {
+  var result = '';
+  var path = '';
+
+  for (var i = 0, len = arguments.length; i < len; i++) {
+    path = arguments[i];
+
+    if (i) result += '\n';
+
+    if (Array.isArray(path)) {
+      result += css.apply(this, path);
+    } else {
+      if (path.indexOf('?') < 0 && path.substring(path.length - 4, path.length) !== '.css') path += '.css';
+      result += '<link rel="stylesheet" href="' + path + '">';
+    }
+  }
+
+  return result;
+}
+%>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <title><%- jsonName[0].siteTitle %></title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:700" rel="stylesheet">
+    <!-- Flags CSS -->
+    <%- css('css/vendor/flags.min.css') %>
+    <!-- Font Awesome CSS -->
+    <%- css('css/vendor/font-awesome.min.css') %>
+    <!-- Main CSS -->
+    <%- css('css/main.css') %>
+</head>

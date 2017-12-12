@@ -1,0 +1,21 @@
+<script>
+    var main;
+    var interval = setInterval(function () {
+        if (document.readyState === 'complete') {
+            (function (arr, count) {
+                clearInterval(interval);
+
+                (function loadscript() {
+                    var script = document.createElement("script");
+                    script.setAttribute("type", "text/javascript");
+                    script.setAttribute("src", arr[count]);
+                    script.onload = function () {
+                        count++;
+                        count === arr.length ? [main = new Main(), main.init(main)] : loadscript();
+                    }
+                    document.getElementsByTagName("body")[0].appendChild(script);
+                })();
+            })(['https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js', './js/vendor/smooth-scroll.min.js', './js/main.js'], 0);
+        }
+    }, 100);
+</script>

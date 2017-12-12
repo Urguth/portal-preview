@@ -1,0 +1,49 @@
+<section id="<%- jsonName[count].tag %>" class="section section-reports">
+    <div class="section-symbol section-symbol--white">
+        <img class="section-symbol__logo" src="./img/<%- jsonName[count].sectionLogo %>"
+             alt="information-image">
+    </div>
+    <div class="section-table section-margin">
+        <h2 class="section__title"><%- jsonName[count].title %></h2>
+        <div class="section__line-container">
+            <div class="section__line-1"></div>
+            <div class="section__line-2"></div>
+        </div>
+        <p class="section__description"><%- jsonName[count].description %></p>
+        <div class="section-tabs">
+            <% for (var i in jsonName[count].content){ %>
+            <% var disabledTable = "" %>
+            <% var disabledTableEffect = "" %>
+            <% if(!jsonName[count].content[i].tableActivated) { %>
+            <% disabledTable = "section-table--disable" %>
+            <% } %>
+            <% if(!jsonName[count].content[i].tableEffectActivated) { %>
+            <% disabledTableEffect = "section-table--disable-effect" %>
+            <% } %>
+            <div class="row-2 section-tab <%- disabledTable %> <%- disabledTableEffect %>">
+                <img class="section-img__lock" src="./img/rocket.png" alt="app-img">
+                <div class="section-tab__table">
+                    <ul class="section-tab__table-inner clearfix <%- disabledTable %>">
+                        <h2 class="section-tab__title"><%- jsonName[count].content[i].title %></h2>
+                        <p class="section-tab__description"><%- jsonName[count].content[i].description %></p>
+                        <% for (var s in jsonName[count].content[i].tabContent){ %>
+                        <% var disabled = "" %>
+                        <% if(!jsonName[count].content[i].tabContent[s].linkActivated) { %>
+                        <% disabled = "section-link--disable" %>
+                        <% } %>
+                        <a class="<%- disabled %>" href="<%- jsonName[count].content[i].tabContent[s].url %>" target="<%- jsonName[count].content[i].tabContent[s].target %>">
+                            <li class="section-tab__table-button <%- disabled %>">
+                                <!-- <i class="fa <%- jsonName[count].content[i].tabContent[s].logo %> fa-2x section-tab__icon" aria-hidden="true"></i> -->
+                                <i class="fa <%- jsonName[count].content[i].tabContent[s].pictogram %> fa-2x section-tab__icon <%- disabled %>" aria-hidden="true"></i>
+                                <span class="section-tab__link <%- disabled %>"><%- jsonName[count].content[i].tabContent[s].title %></span>
+                            </li>
+                        </a>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>
+
+            <% } %>
+        </div>
+    </div>
+</section>

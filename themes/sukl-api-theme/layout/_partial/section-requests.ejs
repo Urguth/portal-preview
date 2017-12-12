@@ -1,0 +1,32 @@
+<section id="<%- jsonName[count].tag %>" class="section section-request background-config">
+    <div class="section-table section-margin">
+        <h2 class="section__title orange-color"><%- jsonName[count].title %></h2>
+        <div class="section__line-container">
+            <div class="section__line-1 orange-bg-color"></div>
+            <div class="section__line-2 orange-bg-color"></div>
+        </div>
+        <p class="section__description orange-color"><%- jsonName[count].description %></p>
+        <div class="section-tabs">
+            <% for (var i in jsonName[count].content){ %>
+            <% var disabled = "" %>
+            <% if(!jsonName[count].content[i].tableActivated) { %>
+            <% disabled = "section-tab--disable" %>
+            <% } %>
+            <a href="<%- jsonName[count].content[i].url1 %>" target="<%- jsonName[count].content[i].target %>">
+                <div class="row-3 section-tab <%- disabled %>">
+                    <div class="section-tab__table">
+                        <div class="section-tab__table-inner">
+                            <i class="fa <%- jsonName[count].content[i].logo %> fa-3x section-tab__icon"
+                               aria-hidden="true"></i>
+                            <div class="section-tab__title"><%- jsonName[count].content[i].title %></div>
+                            <div class="section-tab__spen"></div>
+                            <div class="section-tab__description"><%- jsonName[count].content[i].description %></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <% } %>
+
+        </div>
+    </div>
+</section>

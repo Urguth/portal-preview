@@ -1,0 +1,295 @@
+[
+  {
+    "siteTitle": "SÚKL Api",
+    "tag": "domu",
+    "partialId": "section-welcome",
+    "backgroundImg": "welcome-img.png",
+    "logoName": "API"
+  },
+  {
+    "title": "Informace",
+    "tag": "informace",
+    "partialId": "section-information",
+    "sectionLogo": "info-logo.png",
+    "description": "Informace pro dodavatele SW přistupující k IT systémům SÚKL",
+    "content": [
+      {
+        "title": "Dodavatel SW",
+        "logo": "fa-plus-square",
+        "tableActivated": true,
+        "pictogram": "",
+        "url": "$API_URL/documents/lekarny.pdf",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "title": "Žádosti o přístup",
+    "tag": "zadosti-o-pristup",
+    "partialId": "section-requests",
+    "sectionLogo": "request-logo.png",
+    "description": "Žádosti o přístup k IT systémům SÚKL",
+    "content": [
+      {
+        "title": "Dodavatel SW",
+        "logo": "fa-user",
+        "description": "Žádost o přístup SW firmy k IT systémům SÚKL",
+        "tableActivated": false,
+        "doubleUrl": false,
+        "url1": "$API_URL/portal/#/form_Reg",
+        "url2": "#",
+        "pictogram1": "fa-external-link",
+        "pictogram2": "fa-external-link",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "title": "Testovací hlášení pro SÚKL",
+    "tag": "hlaseni-pro-sukl",
+    "partialId": "section-reports",
+    "sectionLogo": "test-reports-logo.png",
+    "description": "............",
+    "content": [
+      {
+        "logo": "fa-plus-square",
+        "title": "DIS13",
+        "description": "Hlášení dodávek distribuovaných humánních léčivých přípravků - DIS-13 verze 5, API v5",
+        "tableActivated": true,
+        "tableEffectActivated": true,
+        "tabContent": [
+          {
+            "title": "Odkaz na Swagger1",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/docs/?url=/dis13.swagger.json",
+            "target": "_blank"
+          },
+          {
+            "title": "Odkaz na Swagger2",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/dis13.html",
+            "target": "_blank"
+          },
+          {
+            "title": "Odkaz na Swagger3",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/dis13.redoc.html",
+            "target": "_blank"
+          },
+          {
+            "title": "Stažení návodu v pdf",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-file-text-o",
+            "url": "$API_URL/documents/DIS13Navodv32.pdf",
+            "target": "_blank"
+          },
+          {
+            "title": "Často kladené otázky a odpovědi k DIS13 v5",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-file-text-o",
+            "url": "$API_URL/documents/DIS13Navodv32.pdf",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "logo": "fa-plus-square",
+        "title": "REG13",
+        "description": "Hlášení dodávek registrovaných humánních léčivých přípravků od držitelů registračních rozhodnutí do ČR - REG-13 verze 2, API v2",
+        "tableActivated": true,
+        "tableEffectActivated": true,
+        "tabContent": [
+          {
+            "title": "Odkaz na Swagger1",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/docs/?url=/reg13.swagger.json",
+            "target": "_blank"
+          },
+          {
+            "title": "Často kladené otázky a odpovědi k REG13",
+            "logo": "fa-question-circle",
+            "linkActivated": true,
+            "pictogram": "fa-file-text-o",
+            "url": "$API_URL/documents/FAQ_k_REG13.pdf",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "logo": "fa-plus-square",
+        "title": "HZ",
+        "description": "Hlášení závad",
+        "tableActivated": true,
+        "tableEffectActivated": true,
+        "tabContent": [
+          {
+            "title": "Odkaz na Swagger1",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/docs/?url=/hz.swagger.json",
+            "target": "_blank"
+          },
+          {
+            "title": "Odkaz na Swagger2",
+            "logo": "fa-question-circle",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/docs/?url=/hz.swagger.json",
+            "target": "_blank"
+          },
+          {
+            "title": "Odkaz na Swagger3",
+            "logo": "fa-question-circle",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/hz.redoc.html",
+            "target": "_blank"
+          },
+          {
+            "title": "Stažení návodu v pdf",
+            "logo": "fa-question-circle",
+            "linkActivated": true,
+            "pictogram": "fa-file-text-o",
+            "url": "$API_URL/documents/HZNavodv2.pdf",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "logo": "fa-plus-square",
+        "title": "CIS",
+        "description": "Číselníky SÚKL API",
+        "tableActivated": true,
+        "tableEffectActivated": true,
+        "tabContent": [
+          {
+            "title": "Odkaz na Swagger1",
+            "logo": "fa-list-alt",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/docs/?url=/ciselniky.swagger.json",
+            "target": "_blank"
+          },
+          {
+            "title": "Odkaz na Swagger2",
+            "logo": "fa-question-circle",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/ciselniky.html",
+            "target": "_blank"
+          },
+          {
+            "title": "Odkaz na Swagger3",
+            "logo": "fa-question-circle",
+            "linkActivated": true,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/ciselniky.redoc.html",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "logo": "fa-plus-square",
+        "title": "LEK13",
+        "description": "Hlášení o vydaných léčivých přípravcích - LEK-13 verze 6, API v3",
+        "tableActivated": false,
+        "tableEffectActivated": false,
+        "tabContent": [
+          {
+            "title": "Odkaz na Swagger1",
+            "logo": "fa-list-alt",
+            "linkActivated": false,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/#",
+            "target": "_blank"
+          },
+          {
+            "title": "Odkaz na Swagger2",
+            "logo": "fa-question-circle",
+            "linkActivated": false,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/#",
+            "target": "_blank"
+          },
+          {
+            "title": "Odkaz na Swagger3",
+            "logo": "fa-question-circle",
+            "linkActivated": false,
+            "pictogram": "fa-external-link",
+            "url": "$API_URL/#",
+            "target": "_blank"
+          },
+          {
+            "title": "Stažení návodu v pdf",
+            "logo": "fa-question-circle",
+            "linkActivated": false,
+            "pictogram": "fa-file-text-o",
+            "url": "$API_URL/#",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "logo": "",
+        "title": "",
+        "description": "",
+        "tableActivated": true,
+        "tableEffectActivated": false,
+        "tabContent": [
+          {
+            "title": "",
+            "logo": "",
+            "linkActivated": false,
+            "pictogram": "",
+            "url": "",
+            "target": "_blank"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kontakt",
+    "tag": "kontakt",
+    "partialId": "section-contact",
+    "sectionLogo": "kontakt-logo.png",
+    "footerText": "Dotazy a připomínky zasílejte na kontaktní centrum <a href=\"https://kc.sukl.cz\" target=\"_blank\"><strong>https://kc.sukl.cz</strong></a> do patřičných sekcí.",
+    "content": [
+      {
+        "title": "Kde nás najdete?",
+        "description": "Státní ústav pro kontrolu léčiv",
+        "txtId": "Identifikátor datové schránky SÚKL"
+      },
+      {
+        "title": "Naše další stránky",
+        "description1": "- informace o eReceptu a žádostech eReceptu",
+        "linkName1": "epreskripce.sukl.cz",
+        "link1": "http://www.epreskripce.sukl.cz/",
+
+        "description2": "- Statní agentura pro konopí pro léčebné účinky",
+        "linkName2": "sakl.cz",
+        "link2": "http://www.sakl.cz/",
+
+        "description3": "- změna přístupových údajů nové lékárny",
+        "linkName3": "lekarny.sukl.cz",
+        "link3": "http://lekarny.sukl.cz/",
+
+        "description4": "- změna přístupových údajů zdravotnického zařízení a zdravotnických pracovníků",
+        "linkName4": "identity.sukl.cz",
+        "link4": "http://identity.sukl.cz/"
+      }
+    ]
+  }
+]
+

@@ -34,3 +34,5 @@ if (process.argv.length < 4) {
 }
 render('cz', load('./source/_data/content_cz.json'), './themes/sukl-pristupy-theme/source/index.html');
 render('en', load('./source/_data/content_en.json'), './themes/sukl-pristupy-theme/source/index_en.html');
+render('cz', load('./source/_data/content_api_cz.json'), './themes/sukl-api-theme/source/api.html');
+render('en', load('./source/_data/content_api_en.json'), './themes/sukl-api-theme/source/api_en.html');

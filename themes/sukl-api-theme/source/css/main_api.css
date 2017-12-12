@@ -463,7 +463,7 @@ strong {
     position: relative;
     width: 100%;
     height: 480px;
-    background-image: url("../img/welcome-img.png");
+    background-image: url("../img/welcome-img_api.png");
 }
 
 .section-welcome__foreground {
@@ -505,7 +505,7 @@ strong {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: inherit;
-    background-image: url("../img/pattern.svg");
+    background-image: url("../img/pattern_api.svg");
     background-color: #000;
 
 }
